@@ -101,6 +101,33 @@ body {
 @media (min-width: 1281px) and (max-width: 1560px) {
     .hero-cover {
         padding-left: 150px;
+        align-items: flex-start;
+    }
+
+    .cover-copy h1 {
+        font-size: 80px;
+        line-height: 95px;
+    }
+
+    .cover-copy h2 {
+        margin-top: 30px;
+    }
+
+    .cover-copy {
+        padding-top: 20px;
+    }
+
+    .circle {
+        width: 550px;
+        height: 550px;
+    }
+
+    .brka {
+        width: 500px;
+        height: 500px;
+        background-size: 100%;
+        top: 0;
+        left: -100px;
     }
 }
 
