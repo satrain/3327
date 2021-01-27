@@ -23,7 +23,7 @@ body {
 
 .hero-cover {
     padding-top: 80px;
-    padding-left: 250px;
+    padding-left: 350px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -98,7 +98,7 @@ body {
     background: url('../images/brka.png');
 }
 
-@media (min-width: 1281px) and (max-width: 1440px) {
+@media (min-width: 1281px) and (max-width: 1560px) {
     .hero-cover {
         padding-left: 150px;
     }
@@ -116,6 +116,11 @@ body {
     }
 
     .cover-mock {
+        width: 550px;
+        height: 550px;
+    }
+
+    .circle {
         width: 550px;
         height: 550px;
     }
@@ -174,7 +179,7 @@ body {
         z-index: 0;
         width: 500px;
         height: 500px;
-        top: -200px;
+        top: -300px;
         left: -250px;
     }
 
