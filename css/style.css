@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 html, 
@@ -8,6 +9,7 @@ body {
     width: 100vw;
     height: 100vh;
     background: #01020D;
+    overflow: hidden;
 }
 
 .logo {
@@ -20,11 +22,56 @@ body {
 }
 
 .hero-cover {
-    padding-top: 115px;
+    padding-top: 80px;
+    padding-left: 250px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+.cover-copy h1 {
+    max-width: 605px;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+.cover-copy h2 {
+    max-width: 505px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    font-family: 'Space Mono', sans-serif;;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.cover-copy a {
+    padding: 17px 31px;
+    background: #78F9CE;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #01020D;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    transition: .5s;
+}
+
+.cover-copy a:hover {
+    background: #55F9C2;
+    transition: .5s;
 }
 
 .cover-mock {
@@ -49,4 +96,93 @@ body {
     width: 92%;
     height: 92%;
     background: url('../images/brka.png');
+}
+
+@media (min-width: 1281px) and (max-width: 1440px) {
+    .hero-cover {
+        padding-left: 150px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .cover-copy h1 {
+        font-size: 72px;
+        line-height: 90px;
+    }
+
+    .hero-cover {
+        padding-top: 50px;
+        padding-left: 100px;
+    }
+
+    .cover-mock {
+        width: 550px;
+        height: 550px;
+    }
+
+    .brka {
+        width: 500px;
+        height: 500px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        left: -100px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    html,
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .logo {
+        margin-left: 30px;
+    }
+
+    .cover-copy h1 {
+        font-size: 36px;
+        line-height: 50px;
+    }
+
+    .cover-copy h2 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .hero-cover {
+        padding: 60px 30px;
+        flex-direction: column;
+    }
+
+    .cover-copy {
+        position: relative;
+        z-index: 1;
+    }
+
+    .cover-copy a {
+        display: block;
+        width: 100%;
+        padding: 17px 0;
+    }
+
+    .cover-mock {
+        height: 0;
+    }
+
+    .circle {
+        z-index: 0;
+        width: 500px;
+        height: 500px;
+        top: -200px;
+        left: -250px;
+    }
+
+    .brka {
+        width: 450px;
+        height: 450px;
+        background-size: 100%;
+        top: -290px;
+        left: 0;
+    }
 }
