@@ -207,7 +207,7 @@
         <div class="bubble green-bubble small-bubble"></div>
         <div class="bubble purple-bubble small-bubble"></div>
         <div class="bubble blue-bubble small-bubble"></div>
-        <div class="bubble orange-bubble small-bubble"></div>
+        <div class="bubble small-orange-bubble small-bubble"></div>
         <div class="bubble yellow-green-bubble big-bubble"></div>
 
         <div class="meet-our-partners-content">

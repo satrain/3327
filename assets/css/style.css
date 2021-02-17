@@ -647,6 +647,7 @@
 .hackathons {
     padding-top: 225px;
     padding-left: 400px;
+    padding-bottom: 70px;
 }
 
 .hackathons-content {
@@ -705,6 +706,8 @@
 /* meet our partners */
 .meet-our-partners {
     position: relative;
+    padding-top: 70px;
+    padding-bottom: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -722,8 +725,27 @@
 }
 
 .meet-our-partners .purple-bubble {
-    top: -90px;
-    right: 800px;
+    top: -40px !important;
+    right: 800px !important;
+}
+
+.meet-our-partners .blue-bubble {
+    top: 50% !important;
+    left: 37% !important;
+    background: #0439f8 !important;
+}
+
+.meet-our-partners .small-orange-bubble {
+    top: -40px !important;
+    left: 25% !important;
+    background: #ff922e !important;
+}
+
+.meet-our-partners .yellow-green-bubble {
+    top: 35%;
+    transform: translateY(-50%);
+    left: 20%;
+    background: #c2e812;
 }
 
 .meet-our-partners-content {
