@@ -1,0 +1,867 @@
+/* hero style */
+.hero {
+    padding-top: 200px;
+    padding-bottom: 150px;
+    padding-left: 400px;
+}
+
+.hero-content {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-copy {
+    margin-top: 88px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.hero-copy h1 {
+    max-width: 605px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 100px;
+    color: #FFFFFF;
+}
+
+.hero-copy h2 {
+    max-width: 505px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+.hero-mock-bgr-circle {
+    background: #ff922e;
+}
+
+.person-with-mustache {
+    position: absolute;
+    top: 0;
+    left: -130px;
+    width: 92%;
+    height: 92%;
+
+    background: url('../images/brka.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (min-width: 2000px) {
+    .hero-content {
+        justify-content: center;
+    }
+
+    .hero-copy {
+        margin-right: 200px;
+    }
+}
+
+@media (min-width: 1441px) and (max-width: 1700px) {
+    .hero {
+        padding-left: 200px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .hero {
+        padding-left: 100px;
+    }
+} 
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .hero-copy h1 {
+        font-size: 62px;
+        line-height: 75px;
+    }
+
+    .hero-mock {
+        margin-left: 30px;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 1023px) {
+    .hero {
+        padding: 180px 70px 100px;
+    }
+
+    .hero-copy {
+        margin-top: 60px;
+    }
+
+    .hero-copy h1 {
+        font-size: 54px;
+        line-height: 70px;
+    }
+
+    .hero-mock {
+        margin-left: 30px;
+    }
+
+    .person-with-mustache {
+        left: -100px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .hero {
+        padding: 120px 30px 100px;
+        height: 100vh;
+    }
+
+    .hero-content {
+        flex-direction: column;
+    }
+
+    .hero-copy {
+        position: relative;
+        z-index: 1;
+        margin-top: 60px;
+    }
+
+    .hero-copy h1 {
+        font-size: 36px;
+        line-height: 50px;
+    }
+
+    .hero-copy h2 {
+        margin-top: 25px;
+        margin-bottom: 35px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .hero-mock {
+        margin-left: 0;
+    }
+
+    .person-with-mustache {
+        width: 400px;
+        height: 400px;
+        z-index: 0;
+        top: -100px;
+        left: 0;
+    }
+}
+/* END hero style */
+
+/* what is 3327 */
+.what-is-3327 {
+    padding-right: 400px;
+    padding-bottom: 150px;
+}
+
+.what-is-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.what-is-bgr-circle {
+    background: #F6F7EB;
+}
+
+.person-with-laptop {
+    position: absolute;
+    top: 0;
+    right: -150px;
+    width: 92%;
+    height: 92%;
+    background: url('../images/dev.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.what-is-copy {
+    max-width: 610px;
+    margin-left: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.what-is-copy h2 {
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+.what-is-copy p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+.what-is-btn {
+    margin-top: 30px;
+}
+
+@media screen and (min-width: 2000px) {
+    .what-is-content {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1441px) and (max-width: 1700px) {
+    .what-is-3327 {
+        padding-right: 150px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .what-is-3327 {
+        padding-right: 100px;
+    }
+
+    .what-is-copy {
+        margin-left: 140px;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 1023px) {
+    .what-is-3327 {
+        padding: 120px 70px;
+    }
+
+    .what-is-content {
+        flex-direction: column;
+    }
+
+    .what-is-copy {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .what-is-3327 {
+        padding: 70px 30px;
+    }
+
+    .what-is-content {
+        flex-direction: column;
+    }
+
+    .what-is-copy {
+        margin-left: 0;
+    }
+}
+/* END what is 3327 */
+
+/* who we are */
+.who-we-are {
+    padding-top: 150px;
+    padding-right: 400px;
+}
+
+.who-we-are-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.who-we-are-circle {
+    background: #C2E812;
+    margin-left: -80px;
+}
+
+.person-with-label {
+    position: absolute;
+    top: -100px;
+    right: -50px;
+    width: 92%;
+    height: 92%;
+
+    background: url('../images/jump.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.who-we-are-copy {
+    max-width: 610px;
+    margin-left: 230px;
+    margin-top: 90px;
+}
+
+.who-we-are-copy h2 {
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+}
+
+.who-we-are-copy p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+/* END who we are */
+
+/* want to build something cta */
+.home-cta {
+    margin-top: -130px;
+    padding-top: 122px;
+    padding-bottom: 122px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0439F8;
+}
+
+.home-cta-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-cta-content h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+}
+
+.home-cta-content p {
+    max-width: 745px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+/* END want to build something cta */
+
+/* what we do */
+.what-we-do {
+    padding-left: 400px;
+    background: #F6F7EB;
+}
+
+.what-we-do-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.what-we-do-copy {
+    margin-top: 112px;
+}
+
+.what-we-do-copy h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #01020D;
+}
+
+.what-we-do-copy p {
+    margin-bottom: 50px;
+    margin-top: 30px;
+    max-width: 538px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: justify;
+    color: #01020D;
+}
+
+.what-we-do-mock {
+    position: relative;
+}
+
+.orange-bubble {
+    top: 60px;
+    right: 530px;
+    width: 100px;
+    height: 100px;
+    background: #ff922e;
+}
+
+.green-bubble {
+    top: 255px;
+    right: 660px;
+    background: #78f9ce;
+}
+
+.purple-bubble {
+    bottom: 30px;
+    right: 320px;
+    background: #9e3cd7;
+}
+
+.what-we-do-circle {
+    margin-right: -50%;
+    transform: translateX(50%);
+    background: #FF6348;
+}
+
+.person-riding-rocket {
+    position: absolute;
+    width: 92%;
+    height: 92%;
+    top: 50%;
+    left: -280px;
+    transform: translateY(-50%);
+
+    background: url('../images/rocket.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (min-width: 2000px) {
+    .what-we-do-content {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1441px) and (max-width: 1700px) {
+    .what-we-do {
+        padding-left: 200px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .what-we-do {
+        padding-left: 100px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .what-we-do-copy p {
+        text-align: left;
+    }
+}
+
+/* it ain't much, but it's honest work */
+.projects-sneek-peek {
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-sneek-peek h2 {
+    align-self: center;
+    max-width: 1034px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+}
+
+.projects-carousel {
+    width: 100%;
+    margin-top: 150px;
+}
+
+.projects-carousel-container {
+    position: relative;
+    width: 100%;
+    height: 700px;
+}
+
+.projects-carousel-slice {
+    position: relative;
+    height: 100%;
+}
+
+.projects-carousel-slice div {
+    color: #fff;
+}
+
+.slide {
+    position: relative;
+    padding: 105px 90px;
+    float: left;
+    width: 1400px;
+    height: 100%;
+    margin-right: 66px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.slide-current {
+    height: 100%;
+}
+
+.slide-one {
+    border: 30px solid #FF922E;
+}
+
+.slide-two {
+    border: 30px solid #FF6348;
+}
+
+.slide-three {
+    border: 30px solid #C2E812;
+}
+
+.slide-copy {
+    max-width: 505px;
+}
+
+.slide-two .slide-copy {
+    max-width: 534px;
+}
+
+.slide-two .slide-copy p {
+    max-width: 505px;
+}
+
+.slide-copy h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+.slide-copy p {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+.slide-figures > div {
+    position: absolute;
+}
+
+.whollet-slide-figure-one {
+    width: 232px;
+    height: 232px;
+
+    top: -63px;
+    left: 38px;
+
+    background: url('../images/whollet-slide-blue-glossy.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.whollet-slide-figure-two {
+    width: 245px;
+    height: 381px;
+
+    bottom: -98px;
+    left: 138px;
+
+    background: url('../images/whollet-slide-white-glossy.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.starter-kit-slide-figure-one {
+    width: 199px;
+    height: 198px;
+
+    top: -88px;
+    left: 62px;
+
+    background: url('../images/starter-kit-slide-cube-yellow.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.starter-kit-slide-figure-two {
+    width: 350px;
+    height: 350px;
+
+    left: 127px;
+    bottom: -100px;
+
+    background: url('../images/starter-kit-ball-orange.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.crypto-gift-card-slide-figure-one {
+    width: 250px;
+    height: 260px;
+
+    left: 55px;
+    top: -84px;
+
+    background: url('../images/stealth-dex-slide-cylinder-white.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.crypto-gift-card-slide-figure-two {
+    width: 234px;
+    height: 253px;
+
+    bottom: -82px;
+    left: 135px;
+
+    background: url('../images/stealth-dex-slide-cone-blue.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* hackathons */
+.hackathons {
+    padding-top: 225px;
+    padding-left: 400px;
+}
+
+.hackathons-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hackathons-copy {
+    margin-bottom: 180px;
+}
+
+.hackathons-copy h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+.hackathons-copy p {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    max-width: 610px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+#hackathons-btn {
+    padding: 17px 36px;
+}
+
+.hackathons-circle {
+    background: #0439f8;
+}
+
+.person-programming {
+    position: absolute;
+    top: -75px;
+    left: -145px;
+    width: 92%;
+    height: 92%;
+
+    background: url('../images/geek.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* END hackathons */
+
+/* meet our partners */
+.meet-our-partners {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meet-our-partners .orange-bubble {
+    right: 388px !important;
+    top: 60% !important;
+    transform: translateY(-50%) !important;
+}
+
+.meet-our-partners .green-bubble {
+    right: 480px !important;
+    top: 13% !important;
+}
+
+.meet-our-partners .purple-bubble {
+    top: -90px;
+    right: 800px;
+}
+
+.meet-our-partners-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.meet-our-partners-content h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.meet-our-partners-content p {
+    max-width: 745px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+#meet-our-partners-btn {
+    padding: 17px 40px;
+}
+
+.meet-our-partners-logos {
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.enterprise-ethereum-alliance {
+    width: 202px;
+    height: 102px;
+    margin-right: 75px;
+
+    background: url('../images/enterprise-ethereum-alliance.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.substrate-delivery-partners {
+    width: 207px;
+    height: 106px;
+    margin-left: 75px;
+
+    background: url('../images/substrate-delivery-partners.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* END meet our partners */
+
+/* seize the day */
+.seize-the-day {
+    position: relative;
+    padding-top: 150px;
+    padding-right: 400px;
+}
+
+.seize-the-day .blue-bubble {
+    background: #0439f8 !important;
+    left: 437px !important;
+}
+
+.seize-the-day .orange-bubble {
+    width: 100px !important;
+    height: 100px !important;
+    top: 60% !important;
+    left: 562px !important;
+    background: #ff922e !important;
+}
+
+.seize-the-day .green-bubble {
+    top: unset !important; 
+    bottom: 100px !important;
+    left: 459px !important;
+    background: #78f9ce !important;
+}
+
+.seize-the-day-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: #FFF;
+}
+
+.seize-the-day-circle {
+    background: #F6F7EB;
+    margin-left: -50%;
+}
+
+.person-typing-on-phone {
+    position: absolute;
+    top: 0;
+    right: -291px;
+
+    width: 92%;
+    height: 92%;
+
+    background: url('../images/girl.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.seize-the-day-copy {
+    max-width: 538px;
+    margin-left: 230px;
+    margin-top: 197px;
+}
+
+.seize-the-day-copy h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+}
+
+.seize-the-day-copy p {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: justify;
+    color: #FFFFFF;
+}

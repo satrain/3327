@@ -1,0 +1,354 @@
+/* main styles for each page */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono', sans-serif;
+}
+
+html, 
+body {
+    width: 100%;
+    height: 100vh;
+    background: #01020D;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+main {
+    -webkit-overflow: hidden;
+       -moz-overflow: hidden;
+         -o-overflow: hidden;
+            overflow: hidden;
+}
+
+li {
+    list-style: none;
+}
+
+.btn {
+    padding: 17px 60px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #01020D;
+    background: #78F9CE;
+
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+@media screen and (max-width: 425px) {
+    .btn {
+        width: 100%;
+    }
+}
+
+.circle {
+    position: relative;
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+}
+
+.left-circle {
+    margin-left: -150px;
+}
+
+.right-circle {
+    margin-right: -150px;
+}
+
+.bubble {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.small-bubble {
+    width: 50px;
+    height: 50px;
+}
+
+.big-bubble {
+    width: 100px;
+    height: 100px;
+}
+
+
+@media (min-width: 1024px) and (max-width: 1376px) {
+    .circle {
+        width: 600px;
+        height: 600px;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 1023px) {
+    .circle {
+        width: 600px;
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .circle {
+        width: 500px;
+        height: 500px;
+    }
+}
+
+/* header style */
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+    background: #0439F8;
+    /* background: rgba(4, 57, 248, .6); --> on scroll down */
+}
+
+.header-con ul {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    width: 85px;
+    height: 31px;
+    background: url('../images/logo.svg');
+    background-size: cover;
+}
+
+.header-con ul li {
+    list-style: none;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.header-con ul li a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header-button {
+    padding: 12px 44px 11px;
+    margin-left: 25px;
+
+    background: #FFF;
+    color: #0439F8;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+/* END header style */
+
+/* newsletter start */
+
+.newsletter {
+    padding-top: 141px;
+
+    display: flex;
+    justify-content: center;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+.newsletter-content {
+    position: relative;
+    padding-top: 141px;
+    padding-bottom: 217px;
+    padding-left: 106px;
+    padding-right: 94px;
+
+    margin-bottom: 115px;
+    width: 100%;
+
+    background: #C2E812;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newsletter-cylinder {
+    position: absolute;
+    top: -120px;
+    left: 260px;
+    width: 220px;
+    height: 238px;
+    background: url("../images/newsletter-cylinder.png");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.newsletter-content h1 {
+    margin-bottom: 15px;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.newsletter-content p {
+    margin-top: 15px;
+    margin-bottom: 25px;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.newsletter-form {
+    display: flex;
+
+    margin-top: 25px;
+}
+
+.newsletter-form input {
+    background: #C2E812;
+    color: #01020D;
+
+    width: 610px;
+    height: 70px;
+    margin-right: 15px;
+    
+    padding-left: 15px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.newsletter-btn {
+    background: #01020D;
+    color: #FFF;
+
+    width: 250px !important;
+    height: 70px !important;
+    margin-left: 15px;
+}
+
+.newsletter-cube {
+    position: absolute;
+    left: 1100px;
+    bottom: -85px;
+    width: 213px;
+    height: 211px;
+    background: url("../images/newsletter-cube.png");
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* END newsletter style */
+
+/* footer start */
+
+footer {
+    width: 100%;
+    padding-top: 49px;
+    padding-bottom: 30px;
+    margin-top: 115px;
+
+    background: #0439F8;
+    /* background: rgba(4, 57, 248, .6); --> on scroll down */
+    color: #FFF;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-shortcuts {
+    display: flex;
+    justify-content: flex-start;
+
+    padding-left: 200px;
+    margin-bottom: 19px;
+}
+
+.footer-logo {
+    width: 200px;
+    height: 73px;
+    background: url("../images/footer-logo.svg");
+    background-size: cover;
+    margin-right: 56px;
+    margin-top: 5px;
+}
+
+.left-footer-list {
+    margin-left: 56px;
+    margin-right: 45px;
+
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.left-footer-list ul li h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.left-footer-list ul li:not(:first-child) {
+    margin-top: 10px;
+}
+
+.right-footer-list {
+    margin-left: 45px;
+
+    font-weight: 700;
+    font-size: 14px;
+}
+.right-footer-list ul li h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.right-footer-list ul li:not(:first-child) {
+    margin-top: 10px;
+}
+
+.footer-copyright {
+    margin-top: 19px;
+
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.footer-copyright a {
+    text-decoration: underline;
+    color: #FFF;
+}
+/* END footer style */

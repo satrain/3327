@@ -1,0 +1,45 @@
+.about-us {
+    padding-top: 100px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.about-join-us {
+    width: 100%;
+    background: #F6F7EB;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-join-us h1 {
+    padding-top: 68px;
+    margin-bottom: 15px;
+
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.about-join-us p {
+    margin-top: 15px;
+    margin-bottom: 25px;
+
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.about-join-us-btn {
+    width: 280px !important;
+    height: 70px !important;
+
+    background: #01020D;
+    color: #FFF;
+
+    margin-bottom: 122px;
+    margin-top: 25px;
+}
