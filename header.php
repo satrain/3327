@@ -19,9 +19,9 @@
             <div class="header-logo"></div>
             <nav class="header-con">
                 <ul>
-                    <li class="h-about"><a href="#">about</a></li>
-                    <li class="h-projects"><a href="#">projects</a></li>
-                    <li class="h-community"><a href="#">community +</a></li>
+                    <li class="h-about"><a href="about">about</a></li>
+                    <li class="h-projects"><a href="projects">projects</a></li>
+                    <li class="h-community"><a href="contact">community +</a></li>
                     <li class="h-blog"><a href="#">blog</a></li>
                     <button class="header-button">join us</button>
                 </ul>
