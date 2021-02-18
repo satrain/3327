@@ -16,7 +16,7 @@
     </head>
     <body>
         <header>
-            <div class="header-logo"></div>
+            <a href="<?php echo get_site_url(); ?>"><div class="header-logo"></div></a>
             <nav class="header-con">
                 <ul>
                     <li class="h-about"><a href="about">about</a></li>

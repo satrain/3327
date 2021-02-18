@@ -68,4 +68,20 @@
         </div>
     </div>
 
+    <!-- Our values -->
+    <div class="our-values">
+        <div class="our-values-content">
+            <div class="our-values-copy">
+                <h2>Our values</h2>
+            </div>
+            <div class="our-values-mock">
+                <div class="circle circle-left our-values-circle">
+                    <div class="our-values-figure-ball"></div>
+                    <div class="our-values-figure-square"></div>
+                    <div class="our-values-figure-cylinder"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 <?php get_footer(); ?>
