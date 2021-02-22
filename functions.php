@@ -15,6 +15,9 @@
         wp_register_style('privacypolicy', get_template_directory_uri() . '/assets/css/privacy-policy.css', array(), 1, 'all');
         wp_enqueue_style('privacypolicy');
 
+        wp_register_style('projects', get_template_directory_uri() . '/assets/css/projects.css', array(), 1, 'all');
+        wp_enqueue_style('projects');
+
         wp_register_script('indexjs', get_template_directory_uri() . '/assets/js/index.js', array(), 1, 1, 1);
         wp_enqueue_script('indexjs');
 
