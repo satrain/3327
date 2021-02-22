@@ -6,7 +6,7 @@
     <div class="hero">
         <div class="hero-content">
             <div class="hero-copy">
-                <h1>Crazy. Bold. Forward.</h1>
+                <h1 class="big-heading">Crazy. Bold. Forward.</h1>
                 <h2>We’re experimenting with Web 3.0 technologies.</h2>
                 <a class="btn hero-btn" id="hero-btn" href="#">work with us</a>
             </div>
@@ -87,7 +87,7 @@
 
     <!-- It ain't much, but it's honest work -->
     <div class="projects-sneek-peek">
-        <h2>It ain't much, but it's honest work.</h2>
+        <h2 class="big-heading">It ain't much, but it's honest work.</h2>
         <!-- Carousel slider -->
         <div class="projects-carousel">
             <div class="projects-carousel-container">

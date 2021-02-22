@@ -137,8 +137,8 @@
     .hero-copy h2 {
         margin-top: 25px;
         margin-bottom: 35px;
-        font-size: 20px;
-        line-height: 30px;
+        font-size: 14px;
+        line-height: 21px;
     }
 
     .hero-mock {
@@ -149,8 +149,8 @@
         width: 400px;
         height: 400px;
         z-index: 0;
-        top: -100px;
-        left: 0;
+        top: -20px;
+        left: -60px;
     }
 }
 /* END hero style */
@@ -258,11 +258,15 @@
     }
 
     .what-is-content {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .what-is-copy {
         margin-left: 0;
+    }
+
+    .person-with-laptop {
+        right: -80px;
     }
 }
 /* END what is 3327 */
@@ -319,6 +323,21 @@
     line-height: 26px;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 425px) {
+    .who-we-are {
+        padding: 70px 30px;
+    }
+
+    .who-we-are-content {
+        flex-direction: column-reverse;
+    }
+
+    .who-we-are-copy {
+        margin-left: 0;
+        margin-top: 0;
+    }
+}
 /* END who we are */
 
 /* want to build something cta */
@@ -357,6 +376,22 @@
     line-height: 26px;
     text-align: center;
     color: #FFFFFF;
+}
+
+@media screen and (max-width: 425px) {
+    .home-cta {
+        padding: 120px 30px 70px;
+    }
+
+    .home-cta-content {
+        align-items: flex-start;
+    }
+
+    .home-cta-content p {
+        margin-top: 14px;
+        margin-bottom: 24px;
+        text-align: left;
+    }
 }
 /* END want to build something cta */
 
@@ -460,6 +495,40 @@
 @media screen and (max-width: 1280px) {
     .what-we-do-copy p {
         text-align: left;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .what-we-do {
+        padding: 70px 30px;
+    }
+
+    .what-we-do-content {
+        flex-direction: column;
+    }
+
+    .what-we-do-copy {
+        margin-top: 0;
+    }
+
+    .what-we-do-copy p {
+        margin-bottom: 24px;
+        margin-top: 14px;
+    }
+
+    .what-we-do .green-bubble {
+        top: 400px;
+        left: 100px;
+    }
+
+    .what-we-do .purple-bubble {
+        top: 70px;
+        left: 0;
+    }
+
+    .what-we-do .orange-bubble {
+        top: 0;
+        left: 150px;
     }
 }
 
@@ -643,6 +712,24 @@
     background-repeat: no-repeat;
 }
 
+@media screen and (max-width: 425px) {
+    .projects-sneek-peek {
+        padding: 70px 30px;
+    }
+
+    .projects-sneek-peek h2 {
+        text-align: left;
+    }
+
+    .projects-carousel {
+        margin-top: 0;
+    }
+
+    .slide {
+        margin-top: 120px!important;
+    }
+}
+
 /* hackathons */
 .hackathons {
     padding-top: 225px;
@@ -700,6 +787,24 @@
     background: url('../images/geek.png');
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 425px) {
+    .hackathons {
+        padding: 70px 30px;
+    }
+
+    .hackathons-content {
+        flex-direction: column;
+    }
+
+    .hackathons-copy {
+        margin-bottom: 0;
+    }
+
+    .person-programming {
+        left: -90px;
+    }
 }
 /* END hackathons */
 
@@ -807,6 +912,39 @@
     background: url('../images/substrate-delivery-partners.svg');
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 425px) {
+    .meet-our-partners {
+        justify-content: flex-start;
+        padding: 70px 30px;
+    }
+
+    .meet-our-partners .bubble {
+        display: none;
+    }
+
+    .meet-our-partners-content {
+        align-items: flex-start;
+    }
+
+    .meet-our-partners-logos {
+        margin-top: 24px;
+        margin-bottom: 24px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .substrate-delivery-partners {
+        margin-left: 0;
+        margin-top: 24px;
+    }
+
+    .meet-our-partners-content p {
+        text-align: left;
+        margin-top: 24px;
+        margin-bottom: 32px;
+    }
 }
 /* END meet our partners */
 

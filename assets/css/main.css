@@ -44,8 +44,31 @@ li {
 }
 
 @media screen and (max-width: 425px) {
+    h1 {
+        font-size: 34px;
+        line-height: 51px;
+    }
+
+    .big-heading {
+        font-size: 34px!important;
+        line-height: 51px!important;
+    }
+
+    h2:not(.big-heading) {
+        font-size: 24px!important;
+        line-height: 34px !important;
+        margin-bottom: 14px!important;
+    }
+
+    p {
+        font-size: 14px!important;
+        line-height: 20px!important;
+    }
+
     .btn {
-        width: 100%;
+        padding: 14px 32px;
+        font-size: 14px;
+        line-height: 21px;
     }
 }
 
@@ -91,15 +114,20 @@ li {
 
 @media (min-width: 426px) and (max-width: 1023px) {
     .circle {
-        width: 600px;
-        height: 600px;
+        width: 492px;
+        height: 492px;
     }
 }
 
 @media screen and (max-width: 425px) {
     .circle {
-        width: 500px;
-        height: 500px;
+        width: 392px;
+        height: 392px;
+        margin-top: 42px;
+    }
+
+    .right-circle {
+        margin-left: 50px;
     }
 }
 
