@@ -268,6 +268,10 @@
     .person-with-laptop {
         right: -80px;
     }
+
+    .what-is-btn {
+        margin-top: 0;
+    }
 }
 /* END what is 3327 */
 
@@ -385,6 +389,10 @@
 
     .home-cta-content {
         align-items: flex-start;
+    }
+
+    .home-cta-content h2 {
+        margin-bottom: 0!important;
     }
 
     .home-cta-content p {
@@ -1025,4 +1033,28 @@
     line-height: 26px;
     text-align: justify;
     color: #FFFFFF;
+}
+
+@media screen and (max-width: 425px) {
+    .seize-the-day {
+        padding: 70px 30px;
+    }
+
+    .seize-the-day-content {
+        flex-direction: column-reverse;
+    }
+
+    .seize-the-day-copy {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .seize-the-day-copy p {
+        margin-top: 14px;
+        margin-bottom: 24px;
+    }
+
+    .person-typing-on-phone {
+        left: 160px;
+    }
 }

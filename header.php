@@ -3,7 +3,12 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>3327</title>
+
+        <meta name=“title” content=“3327 - Web3 tech incubator”>
+        <meta name=“description” content=“3327 is a program made to encourage and foster idea generation and experimentation to achieve breakthroughs in the Web 3.0 industry.“>
+        <meta name=“keywords” content=“Web3, incubator, experiments, blockchain, smart contracts, zero-knowledge proofs”>
+
+        <title>3327 - Web3 tech incubator</title>
     
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
