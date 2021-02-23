@@ -44,8 +44,10 @@ slides.forEach(element => {
     slideContainerWidth += element.offsetWidth
 });
 
+let translateX = slideWidth + 66
+
 slider.style.width = slideContainerWidth + 6*66 + "px"
-slider.style.transform = "translate3d(-" + slideWidth + "px, 0, 0)";
+slider.style.transform = "translate3d(-" + translateX + "px, 0, 0)";
 
 
 // slider function --> sneek peek projects

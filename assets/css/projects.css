@@ -61,6 +61,7 @@ main h3 {
     padding: 105px 90px;
     width: 1400px;
     height: 700px;
+    /* it's overriding from style.css */
     margin-top: 210px;
     margin-bottom: 210px;
 

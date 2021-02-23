@@ -240,15 +240,16 @@
 
 @media (min-width: 426px) and (max-width: 1023px) {
     .what-is-3327 {
-        padding: 120px 70px;
+        padding: 120px 70px 0;
     }
 
     .what-is-content {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .what-is-copy {
         margin-left: 0;
+        margin-bottom: 42px;
     }
 }
 
@@ -328,6 +329,45 @@
     color: #FFFFFF;
 }
 
+@media screen and (min-width: 2000px) {
+    .who-we-are-content {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1441px) and (max-width: 1700px) {
+    .who-we-are {
+        padding-right: 150px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .who-we-are {
+        padding-right: 100px;
+        padding-bottom: 70px;
+    }
+
+    .who-we-are-copy {
+        margin-left: 140px;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 1023px) {
+    .who-we-are {
+        padding: 120px 70px;
+    }
+
+    .who-we-are-content {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .who-we-are-copy {
+        margin-left: 0;
+        margin-bottom: 42px;
+    }
+}
+
 @media screen and (max-width: 425px) {
     .who-we-are {
         padding: 70px 30px;
@@ -380,6 +420,19 @@
     line-height: 26px;
     text-align: center;
     color: #FFFFFF;
+}
+
+@media (min-width: 1025px) and (max-width: 1376px) {
+    .home-cta {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 1024px) {
+    .home-cta {
+        padding: 120px 70px;
+        margin-top: -160px;
+    }
 }
 
 @media screen and (max-width: 425px) {
@@ -497,12 +550,26 @@
 @media (min-width: 1024px) and (max-width: 1440px) {
     .what-we-do {
         padding-left: 100px;
+        padding-bottom: 120px;
     }
 }
 
 @media screen and (max-width: 1280px) {
     .what-we-do-copy p {
         text-align: left;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 1024px) {
+    .what-we-do {
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-bottom: 120px;
+    }
+    
+    .what-we-do-content {
+        flex-direction: column;
+        align-items: center;
     }
 }
 
@@ -586,7 +653,9 @@
     float: left;
     width: 1400px;
     height: 100%;
+    margin-top: 90px!important;
     margin-right: 66px;
+    margin-bottom: 70px!important;
 
     display: flex;
     justify-content: flex-end;
@@ -795,6 +864,50 @@
     background: url('../images/geek.png');
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 2000px) {
+    .hackathons-content {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1441px) and (max-width: 1700px) {
+    .hackathons {
+        padding-left: 200px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .hackathons {
+        padding-left: 100px;
+    }
+
+    .hackathons-copy {
+        margin-right: 100px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .hackathons-copy p {
+        text-align: left;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 1024px) {
+    .hackathons {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    
+    .hackathons-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hackathons-copy {
+        margin-bottom: 42px;
+    }
 }
 
 @media screen and (max-width: 425px) {
