@@ -42,6 +42,7 @@ main h3 {
 
 .projects-hero-circle {
     background: #FFF;
+    margin-bottom: 200px !important;
 }
 
 .projects-apps {
@@ -54,6 +55,16 @@ main h3 {
     background: url('../images/apps.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
+}
+
+.projects-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects-container {
+    margin-bottom: 500px !important;
 }
 
 .slide {
@@ -113,56 +124,462 @@ main h3 {
 
 .scriptarnica-slide {
     border: 30px solid #9E3CD7;
+    padding-left: 500px;
 }
 
 .bizzllet-slide {
     border: 30px solid #0439F8;
+    padding-left: 470px;
 }
 
 .sbsk-slide {
     border: 30px solid #FF922E;
+    padding-left: 470px;
 }
 
 .sdpl-slide {
     border: 30px solid #C2E812;
+    padding-left: 470px;
 }
 
 .whollet-slide {
     border: 30px solid #78F9CE;
+    padding-left: 500px;
 }
 
 .scvd-slide {
     border: 30px solid #FF6348;
+    padding-left: 470px;
 }
 
 .cgc-slide {
     border: 30px solid #FFFFFF;
+    padding-left: 470px;
 }
 
 .crypto-trophies-slide {
     border: 30px solid #78F9CE;
+    padding-left: 470px;
 }
 
 .liquid-crystal-slide {
     border: 30px solid #9E3CD7;
+    padding-left: 470px;
 }
 
 .our-network-slide {
     border: 30px solid #0439F8;
+    padding-left: 470px;
 }
 
 .dbmc-slide {
     border: 30px solid #FF6348;
+    padding-left: 470px;
 }
 
 .tmc-slide {
     border: 30px solid #FFFFFF;
+    padding-left: 470px;
 }
 
 .blockchainz-design-slide {
     border: 30px solid #78F9CE;
+    padding-left: 470px;
 }
 
 .web3-slide {
     border: 30px solid #FF922E;
+    padding-left: 470px;
+}
+
+.figure-mock > div {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.scriptarnica-mock{
+
+}
+
+.scriptarnica-image1 {
+    position: absolute;
+
+    top: -240px;
+    left: -130px;
+    width: 253px;
+    height: 547px;
+
+    background: url("../images/projects/Onboarding1.png");
+}
+
+.scriptarnica-image2 {
+    position: absolute;
+
+    top: -90px;
+    left: 150px;
+    width: 253px;
+    height: 547px;
+
+    background: url("../images/projects/Onboarding2.png");
+}
+
+.scriptarnica-image3 {
+    position: absolute;
+
+    top: 340px;
+    left: -130px;
+    width: 253px;
+    height: 547px;
+
+    background: url("../images/projects/Onboarding3.png");
+}
+
+.bizzllet-mock {
+
+}
+
+.bizzllet-image1 {
+    position: absolute;
+
+    top: -120px;
+    left: 69px;
+    width: 225px;
+    height: 225px;
+
+    background: url("../images/projects/green-ring.png");
+}
+
+.bizzllet-image2 {
+    position: absolute;
+
+    top: 390px;
+    left: 69px;
+    width: 350px;
+    height: 450px;
+
+    background: url("../images/projects/yellow-cylinder.png");
+}
+
+.sbsk-mock {
+
+}
+
+.sbsk-image1 {
+    position: absolute;
+
+    top: -120px;
+    left: 69px;
+    width: 200px;
+    height: 200px;
+
+    background: url("../images/projects/yellow-cube.png");
+}
+
+.sbsk-image2 {
+    position: absolute;
+
+    top: 390px;
+    left: 69px;
+    width: 350px;
+    height: 350px;
+
+    background: url("../images/projects/orange-ball.png");
+}
+
+.sdpl-mock {
+
+}
+
+.sdpl-image1 {
+    position: absolute;
+    
+    top: -120px;
+    left: 69px;
+    width: 225px;
+    height: 250px;
+
+    background: url("../images/projects/blue-cylinder.png");
+}
+
+.sdpl-image2 {
+    position: absolute;
+
+    top: 390px;
+    left: 69px;
+    width: 400px;
+    height: 400px;
+
+    background: url("../images/projects/pink-left-cup.png");
+}
+
+.whollet-mock {
+
+}
+
+.whollet-image1 {
+    position: absolute;
+
+    top: -240px;
+    left: -130px;
+    width: 253px;
+    height: 547px;
+
+    background: url("../images/projects/whollet1.png");
+}
+
+.whollet-image2 {
+    position: absolute;
+
+    top: -90px;
+    left: 150px;
+    width: 253px;
+    height: 547px;
+
+    background: url("../images/projects/whollet2.png");
+}
+
+.whollet-image3 {
+    position: absolute;
+
+    top: 340px;
+    left: -130px;
+    width: 253px;
+    height: 547px;
+
+    background: url("../images/projects/whollet3.png");
+}
+
+.scvd-mock {
+
+}
+
+.scvd-image1 {
+    position: absolute;
+    
+    top: -120px;
+    left: 69px;
+    width: 150px;
+    height: 233px;
+
+    background: url("../images/projects/yellow-stick.png");
+}
+
+.scvd-image2 {
+    position: absolute;
+
+    top: 390px;
+    left: 69px;
+    width: 373px;
+    height: 369px;
+
+    background: url("../images/projects/pink-cube.png");
+}
+
+.cgc-mock {
+
+}
+
+.cgc-image1 {
+    position: absolute;
+    
+    top: -120px;
+    left: 69px;
+    width: 200px;
+    height: 200px;
+
+    background: url("../images/projects/orange-ball.png");
+}
+
+.cgc-image2 {
+
+    position: absolute;
+
+    top: 390px;
+    left: 69px;
+    width: 340px;
+    height: 340px;
+
+    background: url("../images/projects/blue-ring.png");
+}
+
+.crypto-trophies-mock {
+
+}
+
+.crypto-trophies-image1 {
+    position: absolute;
+    
+    top: -120px;
+    left: 69px;
+    width: 235px;
+    height: 255px;
+
+    background: url("../images/projects/white-cup.png");
+}
+
+.crypto-trophies-image2 {
+    position: absolute;
+
+    top: 390px;
+    left: 69px;
+    width: 270px;
+    height: 350px;
+
+    background: url("../images/projects/white-cylinder.png");
+}
+
+.liquid-crystal-mock {
+
+}
+
+.liquid-crystal-image1 {
+    position: absolute;
+    
+    top: -120px;
+    left: 69px;
+    width: 200px;
+    height: 200px;
+
+    background: url("../images/projects/yellow-cube.png");
+}
+
+.liquid-crystal-image2 {
+    position: absolute;
+
+    top: 390px;
+    left: 69px;
+    width: 350px;
+    height: 350px;
+
+    background: url("../images/projects/orange-ball.png");
+}
+
+.our-network-mock {
+
+}
+
+.our-network-image1 {
+    position: absolute;
+    
+    top: -120px;
+    left: 69px;
+    width: 245px;
+    height: 265px;
+
+    background: url("../images/projects/pink-right-cup.png");
+}
+
+.our-network-image2 {
+    position: absolute;
+
+    top: 390px;
+    left: 69px;
+    width: 340px;
+    height: 340px;
+
+    background: url("../images/projects/yellow-cube.png");
+}
+
+.dbmc-mock {
+
+}
+
+.dbmc-image1 {
+    position: absolute;
+    
+    top: -120px;
+    left: 69px;
+    width: 230px;
+    height: 230px;
+
+    background: url("../images/projects/blue-ball.png");
+}
+
+.dbmc-image2 {
+    position: absolute;
+
+    top: 390px;
+    left: 69px;
+    width: 245px;
+    height: 380px;
+
+    background: url("../images/projects/white-stick.png");
+}
+
+.tmc-mock {
+
+}
+
+.tmc-image1 {
+    position: absolute;
+    
+    top: -120px;
+    left: 69px;
+    width: 200px;
+    height: 200px;
+
+    background: url("../images/projects/yellow-cube.png");
+}
+
+.tmc-image2 {
+    position: absolute;
+
+    top: 390px;
+    left: 69px;
+    width: 330px;
+    height: 360px;
+
+    background: url("../images/projects/blue-cup.png");
+}
+
+.blockchainz-design-mock {
+
+}
+
+.blockchainz-design-image1 {
+    position: absolute;
+    
+    top: -120px;
+    left: 69px;
+    width: 240px;
+    height: 280px;
+
+    background: url("../images/projects/orange-cylinder.png");
+}
+
+.blockchainz-design-image2 {
+    position: absolute;
+
+    top: 390px;
+    left: 69px;
+    width: 316px;
+    height: 316px;
+
+    background: url("../images/projects/pink-ring.png");
+}
+
+.web3-mock {
+
+}
+
+.web3-image1 {
+    position: absolute;
+    
+    top: -120px;
+    left: 69px;
+    width: 200px;
+    height: 200px;
+
+    background: url("../images/projects/yellow-cube.png");
+}
+
+.web3-image2 {
+    position: absolute;
+
+    top: 390px;
+    left: 69px;
+    width: 350px;
+    height: 350px;
+    
+    background: url("../images/projects/orange-ball.png");
 }

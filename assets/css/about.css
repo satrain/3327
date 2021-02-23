@@ -464,7 +464,7 @@
 
 @media screen and (max-width: 425px) {
     .we-believe-in {
-        padding: 70px 30px;
+        padding: 70px 30px 0;
     }
 
     .we-believe-in-content {
@@ -496,16 +496,16 @@
 /* we believe in END */
 
 /* our values */
-.our-values-content {
-    padding-top: 180px;
-    padding-bottom: 180px;
+.our-values {
     padding-left: 300px;
-    display: flex;
-    justify-content: space-between;
+    padding-bottom: 180px;
+    padding-top: 180px;
 }
 
-.our-values-copy {
-    margin-top: 92px;
+.our-values-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .our-values-copy h2 {
@@ -571,5 +571,80 @@
     background-repeat: no-repeat;
 }
 
+@media screen and (min-width: 2000px) {
+    .our-values-content {
+        justify-content: center;
+    }
 
+    .our-values-copy {
+        margin-right: 200px;
+    }
+}
+
+@media (min-width: 1441px) and (max-width: 1700px) {
+    .our-values {
+        padding-left: 200px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .our-values {
+        padding-left: 100px;
+    }
+} 
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .our-values-mock {
+        margin-left: 30px;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 1023px) {
+    .our-values {
+        padding: 180px 70px 100px;
+    }
+
+    .our-values-copy {
+        margin-top: 60px;
+    }
+
+    .our-values-mock {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .our-values {
+        padding: 70px 30px;
+        height: 100vh;
+    }
+
+    .our-values-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .our-values-copy {
+        position: relative;
+        z-index: 1;
+        margin-top: 60px;
+    }
+
+    .our-values-mock {
+        margin-left: 0;
+    }
+
+    .our-values-figure-square {
+        top: 0;
+        right: 180px;
+    }
+
+    .our-values-figure-ball {
+        display: none;
+    }
+
+    .our-values-figure-cylinder {
+        display: none;
+    }
+}
 /* our values END */
