@@ -30,3 +30,14 @@ var circle = document.querySelector(".who-we-are")
             .css({ left: leftPosition });
         });
     });
+
+    $(window).on("load resize scroll", function() {
+        $(".what-we-do-circle").each(function() {
+        var windowTop = $(window).scrollTop();
+        var elementTop = $(this).offset().top;
+        var rightPosition = windowTop - elementTop + 150;
+            $(this)
+            .find(".person-riding-rocket")
+            .css({ right: rightPosition });
+        });
+    });

@@ -584,7 +584,7 @@ footer {
 @media screen and (max-width: 425px) {
     footer {
         margin-top: 0;
-        padding: 70px 30px;
+        padding: 70px 30px 30px;
     }
 
     .footer-shortcuts {
@@ -596,10 +596,19 @@ footer {
         margin-top: 24px;
         margin-left: 0;
         margin-right: 0;
+        margin-bottom: 24px;
     }
 
     .right-footer-list {
         margin-left: 0;
+    }
+
+    .footer-copyright {
+        text-align: left;
+    }
+
+    .footer-copyright p br {
+        display: none;
     }
 }
 /* END footer style */
