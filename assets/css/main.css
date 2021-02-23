@@ -197,6 +197,10 @@ header {
     outline: none;
 }
 
+.nav-mobile-modal {
+    display: none;
+}
+
 @media screen and (max-width: 425px) {
     header {
         padding-left: 30px;
