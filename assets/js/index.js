@@ -1,3 +1,12 @@
+//Mobile - show navigation on burger click
+burger = document.querySelector(".burger")
+navMobile = document.querySelector(".nav-mobile-modal")
+burger.onclick = function () {
+    navMobile.classList.toggle("nav-mobile-active");
+    burger.classList.toggle("open");
+}
+
+
 const el = document.querySelector(".projects-carousel-container")
 
 let width = el.clientWidth

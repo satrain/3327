@@ -31,4 +31,24 @@
                     <button class="header-button">join us</button>
                 </ul>
             </nav>
+            
+            <!-- Hamburger (burger) for the navigation beyond 1024px - Mobile and Tablet -->
+            <div style="display: none;" id="hamburger">
+                <div class="burger burger-squeeze">
+                    <div class="burger-lines"></div>
+                </div>
+            </div>
+
+            <!-- Mobile Navigation -- toggles on hamburger click -->
+            <div class="nav-mobile-modal">
+                <nav>
+                    <ul>
+                        <li><a href="about">about</a></li>
+                        <li><a href="projects">projects</a></li>
+                        <li><a href="contact">community +</a></li>
+                        <li><a href="#">blog</a></li>
+                        <li><button class="header-button" onclick="window.location.href='#'">join us</button></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
