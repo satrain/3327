@@ -810,6 +810,11 @@
         margin-bottom: 0;
     }
 
+    .hackathons-copy p {
+        margin-top: 14px;
+        margin-bottom: 24px;
+    }
+
     .person-programming {
         left: -90px;
     }

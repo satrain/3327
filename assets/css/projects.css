@@ -69,6 +69,47 @@ main h3 {
     align-items: center;
 }
 
+.slide div {
+    display: flex;
+    flex-direction: column;
+}
+
+.slide div p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.slide div a {
+    width: 285px;
+}
+
+.slide div a:not(.btn) {
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.slide div a:not(.btn)::after {
+    content: "";
+    position: absolute;
+    left: 140px;
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 .scriptarnica-slide {
     border: 30px solid #9E3CD7;
 }
