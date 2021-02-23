@@ -95,3 +95,39 @@
     height: 70px !important;
     margin-top: 25px;
 }
+
+@media screen and (max-width: 1024px) {
+    .contact-hero {
+        margin-top: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .contact-hero-content {
+        padding: 180px 30px 90px;
+        margin-bottom: 0;
+    }
+
+    .contact-hero-content h4 {
+        padding-left: 0;
+        padding-right: 0;
+        text-align: left;
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .contact-form {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .contact-form select,
+    .contact-form input {
+        width: 100%;
+    }
+
+    .contact-btn {
+        width: 100%!important;
+    }
+}

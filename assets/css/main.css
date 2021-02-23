@@ -560,6 +560,10 @@ header {
         width: 100%!important;
         margin-left: 0;
     }
+
+    .newsletter-cylinder {
+        display: none;
+    }
 }
 /* END newsletter style */
 
