@@ -42,7 +42,7 @@
          About us CTA -->
     <div class="about-us-cta">
         <div class="about-join-us">
-            <h1>Join this forward-thinking, tall and <br>handsome crew!</h1>
+            <h2>Join this forward-thinking, tall and <br>handsome crew!</h2>
             <p>The worst thing that can happen is we mess everything up and <br>epically fail.</p>
             <button class="btn about-join-us-btn">join us</button>
         </div>
@@ -58,7 +58,7 @@
             </div>
             <div class="we-believe-in-copy">
                 <h2>We believe in</h2>
-                <h3>Collaboration adn teamwork.</h3>
+                <h3>Collaboration and teamwork.</h3>
                 <p>They greatly contribute to learning and growth.</p>
                 <h3>Decentralization.</h3>
                 <p>We see blockchain as an enabler of decentralization ideas.</p>
@@ -73,6 +73,12 @@
         <div class="our-values-content">
             <div class="our-values-copy">
                 <h2>Our values</h2>
+                <p><b>Stake</b> in the game over consulting</p>
+                <p><b>Change</b> over progress</p>
+                <p><b>Utility</b> over beauty</p>
+                <p><b>Speed</b> over consistency</p>
+                <p><b>Idea</b> over realisation</p>
+                <p><b>Iteration</b> over perfection</p>
             </div>
             <div class="our-values-mock">
                 <div class="circle circle-left our-values-circle">

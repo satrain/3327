@@ -64,6 +64,99 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
+
+@media screen and (min-width: 2000px) {
+    .about-us-hero-content {
+        justify-content: center;
+    }
+
+    .about-us-hero-copy {
+        margin-right: 200px;
+    }
+}
+
+@media (min-width: 1441px) and (max-width: 1700px) {
+    .about-us-hero {
+        padding-left: 200px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .about-us-hero {
+        padding-left: 100px;
+    }
+} 
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .about-us-hero-copy h1 {
+        font-size: 62px;
+        line-height: 75px;
+    }
+
+    .about-us-hero-mock {
+        margin-left: 30px;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 1023px) {
+    .about-us-hero {
+        padding: 180px 70px 100px;
+    }
+
+    .about-us-hero-copy {
+        margin-top: 60px;
+    }
+
+    .about-us-hero-copy h1 {
+        font-size: 54px;
+        line-height: 70px;
+    }
+
+    .about-us-hero-mock {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .about-us-hero {
+        padding: 120px 30px 0;
+    }
+
+    .about-us-hero-content {
+        flex-direction: column;
+    }
+
+    .about-us-hero-copy {
+        position: relative;
+        z-index: 1;
+        margin-top: 60px;
+    }
+
+    .about-us-hero-copy h1 {
+        font-size: 36px;
+        line-height: 50px;
+    }
+
+    .about-us-hero-copy h2 {
+        margin-top: 25px;
+        margin-bottom: 35px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .about-us-hero-mock {
+        margin-left: 0;
+    }
+
+    .person-one-hand {
+        top: -365px;
+        left: 0;
+    }
+
+    .person-two-hand {
+        top: 65%;
+    }
+}
 /* about hero END */
 
 /* what are we looking for | wawlf */
@@ -116,6 +209,73 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+@media screen and (min-width: 2000px) {
+    .wawlf-content {
+        justify-content: center;
+    }
+
+    .wawlf-copy {
+        margin-right: 200px;
+    }
+}
+
+@media (min-width: 1441px) and (max-width: 1700px) {
+    .what-are-we-looking-for {
+        padding-left: 200px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .what-are-we-looking-for {
+        padding-left: 100px;
+    }
+} 
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .wawlf-mock {
+        margin-left: 30px;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 1023px) {
+    .what-are-we-looking-for {
+        padding: 180px 70px 100px;
+    }
+
+    .wawlf-copy {
+        margin-top: 60px;
+    }
+
+    .wawlf-mock {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .what-are-we-looking-for {
+        padding: 120px 30px 100px;
+        height: 100vh;
+    }
+
+    .wawlf-content {
+        flex-direction: column;
+    }
+
+    .wawlf-copy {
+        position: relative;
+        z-index: 1;
+        margin-top: 60px;
+    }
+
+    .wawlf-mock {
+        margin-left: 0;
+    }
+
+    .person-with-the-flag {
+        top: -120px;
+    }
+}
 /* wawlf END */
 
 /* about us cta */
@@ -135,7 +295,7 @@
     align-items: center;
 }
 
-.about-join-us h1 {
+.about-join-us h2 {
     padding-top: 68px;
     margin-bottom: 15px;
 
@@ -163,6 +323,34 @@
 
     margin-bottom: 122px;
     margin-top: 25px;
+}
+
+@media screen and (max-width: 1024px) {
+    .about-join-us {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .about-join-us {
+        padding: 70px 30px;
+        align-items: flex-start;
+    }
+
+    .about-join-us h2 {
+        padding-top: 0;
+        text-align: left;
+    }
+
+    .about-join-us p {
+        text-align: left;
+    }
+
+    .about-join-us-btn {
+        width: 100%!important;
+        margin-bottom: 0;
+    }
 }
 /* about cta END */
 
@@ -228,6 +416,83 @@
     line-height: 26px;
     color: #fff;
 }
+
+@media screen and (min-width: 2000px) {
+    .we-believe-in-content {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1441px) and (max-width: 1700px) {
+    .we-believe-in {
+        padding-right: 200px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .we-believe-in {
+        padding-right: 100px;
+    }
+
+    .we-believe-in-copy {
+        margin-right: 100px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .we-believe-in-copy p {
+        text-align: left;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 1024px) {
+    .we-believe-in {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    
+    .we-believe-in-content {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .we-believe-in-copy {
+        margin-left: 0;
+        margin-bottom: 42px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .we-believe-in {
+        padding: 70px 30px;
+    }
+
+    .we-believe-in-content {
+        flex-direction: column-reverse;
+    }
+
+    .we-believe-in-copy {
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
+    .we-believe-in-copy h2 {
+        margin-bottom: 28px!important;
+    }
+
+    .we-believe-in-copy h3 {
+        font-size: 18px;
+    }
+
+    .we-believe-in-copy p {
+        margin-top: 14px;
+        margin-bottom: 24px;
+    }
+
+    .person-programming {
+        left: -90px;
+    }
+}
 /* we believe in END */
 
 /* our values */
@@ -239,13 +504,27 @@
     justify-content: space-between;
 }
 
+.our-values-copy {
+    margin-top: 92px;
+}
+
 .our-values-copy h2 {
+    margin-bottom: 28px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 54px;
     color: #FFFFFF;
+}
+
+.our-values-copy p {
+    margin-bottom: 14px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #fff;
 }
 
 .our-values-circle {
