@@ -21,22 +21,17 @@ var circle = document.querySelector(".who-we-are")
 //     }  
 // })
     $(window).on("load resize scroll", function() {
-        $(".who-we-are-circle").each(function() {
+        $(".circle").each(function() {
         var windowTop = $(window).scrollTop();
         var elementTop = $(this).offset().top;
         var leftPosition = windowTop - elementTop + 250;
+        var rightPosition = windowTop - elementTop + 350;
             $(this)
-            .find(".person-with-label")
+            .find(".person-left")
             .css({ left: leftPosition });
-        });
 
-        $(".what-we-do-circle").each(function() {
-            var windowTop = $(window).scrollTop();
-            var elementTop = $(this).offset().top;
-            var rightPosition = windowTop - elementTop + 150;
-                $(this)
-                .find(".person-riding-rocket")
-                .css({ right: rightPosition });
-            });
-            
+            $(this)
+            .find(".person-right")
+            .css({ left: -rightPosition });
+        }); 
     });

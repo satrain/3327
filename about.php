@@ -14,8 +14,8 @@
             </div>
             <div class="about-us-hero-mock">
                 <div class="circle right-circle about-us-hero-circle">
-                    <div class="person-one-hand"></div>
-                    <div class="person-two-hand"></div>
+                    <div class="person person-right person-one-hand"></div>
+                    <div class="person person-right person-two-hand"></div>
                 </div>
             </div>
         </div>
@@ -32,7 +32,7 @@
             </div>
             <div class="wawlf-mock">
                 <div class="circle right-circle wawlf-circle">
-                    <div class="person-with-the-flag"></div>
+                    <div class="person person-right person-with-the-flag"></div>
                 </div>
             </div>
         </div>
@@ -53,7 +53,7 @@
         <div class="we-believe-in-content">
             <div class="we-believe-in-mock">
                 <div class="circle left-circle we-believe-in-circle">
-                    <div class="person-who-is-walking"></div>
+                    <div class="person person-left person-who-is-walking"></div>
                 </div>
             </div>
             <div class="we-believe-in-copy">
