@@ -12,7 +12,7 @@
             </div>
             <div class="hero-mock">
                 <div class="circle right-circle hero-mock-bgr-circle">    
-                    <div class="person person-right person-with-mustache"></div>
+                    <div class="person person-with-mustache"></div>
                 </div>
             </div>
         </div>

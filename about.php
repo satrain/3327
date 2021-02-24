@@ -14,8 +14,8 @@
             </div>
             <div class="about-us-hero-mock">
                 <div class="circle right-circle about-us-hero-circle">
-                    <div class="person person-right person-one-hand"></div>
-                    <div class="person person-right person-two-hand"></div>
+                    <div class="person person-one-hand"></div>
+                    <div class="person person-two-hand"></div>
                 </div>
             </div>
         </div>

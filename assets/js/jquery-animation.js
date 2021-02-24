@@ -24,14 +24,18 @@ var circle = document.querySelector(".who-we-are")
         $(".circle").each(function() {
         var windowTop = $(window).scrollTop();
         var elementTop = $(this).offset().top;
-        var leftPosition = windowTop - elementTop + 250;
+        var leftPosition = windowTop - elementTop + 350;
         var rightPosition = windowTop - elementTop + 350;
-            $(this)
-            .find(".person-left")
-            .css({ left: leftPosition });
+            if(leftPosition < 150) {
+                $(this)
+                .find(".person-left")
+                .css({ left: leftPosition });
+            }
 
-            $(this)
-            .find(".person-right")
-            .css({ left: -rightPosition });
+            if(rightPosition < 300) {
+                $(this)
+                .find(".person-right")
+                .css({ left: -rightPosition });
+            }
         }); 
     });
