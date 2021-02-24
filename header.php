@@ -30,7 +30,7 @@
                     <li class="h-projects"><a href="projects">projects</a></li>
                     <!-- discord link  -->
                     <li class="h-community"><a href="#" target="_blank">community +</a></li>
-                    <li class="h-blog"><a href="#">blog</a></li>
+                    <!--<li class="h-blog"><a href="#">blog</a></li>-->
                     <button class="header-button">join us</button>
                 </ul>
             </nav>
@@ -49,7 +49,7 @@
                         <li><a href="about">about</a></li>
                         <li><a href="projects">projects</a></li>
                         <li><a href="contact">community +</a></li>
-                        <li><a href="#">blog</a></li>
+                        <!--<li><a href="#">blog</a></li>-->
                         <li><button class="header-button" onclick="window.location.href='#'">join us</button></li>
                     </ul>
                 </nav>

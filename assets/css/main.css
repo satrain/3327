@@ -431,7 +431,8 @@ header {
 }
 
 .newsletter-form input {
-    background: #C2E812;
+    background: transparent;
+	border: 2px solid #01020D;
     color: #01020D;
 
     width: 610px;
@@ -445,6 +446,11 @@ header {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 500;
+    outline: none;
+}
+
+.newsletter-form input::placeholder {
+    color: #01020D;
 }
 
 .newsletter-btn {
@@ -645,6 +651,11 @@ footer {
 
 .footer-copyright a {
     text-decoration: underline;
+    color: #FFF;
+}
+
+.footer-shortcuts ul li a {
+    text-decoration: none;
     color: #FFF;
 }
 

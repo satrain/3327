@@ -18,18 +18,17 @@
                 <div class="left-footer-list">
                     <ul>
                         <li><h4>explore</h4></li>
-                        <li>about</li>
-                        <li>projects</li>
-                        <li>blog</li>
-                        <li>privacy policy</li>
+                        <li><a href="/about">about</a></li>
+                        <li><a href="/projects">projects</a></li>
+                        <li><a href="#">blog</a></li>
                     </ul>
                 </div>
                 <div class="right-footer-list">
                     <ul>
                         <li><h4>join us</h4></li>
-                        <li>work with us</li>
-                        <li>submit an idea</li>
-                        <li>discord</li>
+                        <li><a href="/contact">get in touch</a></li>
+                        <li><a href="#" target="_blank">discord community</a></li>
+                        <li><a href="/privacy-policy">privacy-policy</a></li>
                     </ul>
                 </div>
             </div>

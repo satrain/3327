@@ -30,12 +30,20 @@ var circle = document.querySelector(".who-we-are")
                 $(this)
                 .find(".person-left")
                 .css({ left: leftPosition });
+
+                $(this)
+                .find(".person-typing-on-phone")
+                .css({ left: leftPosition + 200 });
             }
 
             if(rightPosition < 300) {
                 $(this)
                 .find(".person-right")
                 .css({ left: -rightPosition });
+
+                $(this)
+                .find(".person-programming")
+                .css({ left: -rightPosition + 100 })
             }
         }); 
     });
