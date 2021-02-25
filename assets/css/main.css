@@ -495,6 +495,8 @@ header {
 
 @media screen and (max-width: 500px) {
     .not-found-image {
+        left: unset;
+        right: 0;
         width: 300px;
         height: 300px;
     }
