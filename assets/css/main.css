@@ -410,8 +410,80 @@ header {
     }
 }
 
-/* /CONTACT US MODAL */
+/* END CONTACT US MODAL */
 
+/* 404 PAGE STYLE */
+
+.not-found-container {
+    position: relative;
+    padding-top: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.not-found-container h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 100px;
+    color: #FFFFFF;
+}
+
+.not-found-container h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+}
+
+.not-found-container p {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+.not-found-container a {
+    margin-top: 30px;
+}
+
+.not-found-image {
+    position: absolute;
+    right: 0;
+    top: 30%;
+    width: 500px;
+    height: 500px;
+
+    background: url('../images/not-found-image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 425px) {
+    .not-found-container {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 70px;
+        align-items: flex-start;
+    }
+
+    .not-found-container h2 {
+        text-align: left;
+    }
+}
+
+/* END 404 PAGE STYLE */
 
 /* newsletter start */
 
