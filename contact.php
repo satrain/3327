@@ -9,10 +9,11 @@
             <h4>Get in touch with us and we'll get <br>back to you as soon as possible.</h4>
             <form action="" class="contact-form">
                 <select>
-                    <option value="option1">Option1</option>
-                    <option value="option2">Option2</option>
-                    <option value="option3">Option3</option>
-                    <option value="option4">Option4</option>
+                    <option value="joining-the-team">joining the team</option>
+                    <option value="collaboration">collaboration</option>
+                    <option value="supporting-3327">supporting 3327</option>
+                    <option value="sponsoring-a-hackathon">sponsoring a hackathon</option>
+                    <option value="building-an-innovative-product">building an innovative product</option>
                 </select>
                 <input type="text" placeholder="your name">
                 <input type="email" placeholder="your email">

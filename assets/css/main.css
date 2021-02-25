@@ -42,6 +42,7 @@ li {
     text-decoration: none;
     border: none;
     outline: none;
+    transition: .5s;
 }
 
 @media screen and (max-width: 425px) {
@@ -366,6 +367,51 @@ header {
     }
 }
 /* END burger style */
+
+/* CONTACT US MODAL */
+
+.contact-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background: rgba(0, 0, 0, .5);
+}
+
+.contact-modal span {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    font-size: 54px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.contact-modal-content {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #FFF;
+    z-index: 101;
+}
+
+@media screen and (max-width: 1024px) {
+    .contact-modal-content {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* /CONTACT US MODAL */
+
 
 /* newsletter start */
 

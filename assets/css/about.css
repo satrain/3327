@@ -319,10 +319,17 @@
     height: 70px !important;
 
     background: #01020D;
+    border: 2px solid #01020D;
     color: #FFF;
 
     margin-bottom: 122px;
     margin-top: 25px;
+}
+
+.about-join-us-btn:hover {
+    background: transparent;
+    color: #01020D;
+    transition: .5s;
 }
 
 @media screen and (max-width: 1024px) {

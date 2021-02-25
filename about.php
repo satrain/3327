@@ -44,7 +44,7 @@
         <div class="about-join-us">
             <h2>Join this forward-thinking, tall and <br>handsome crew!</h2>
             <p>The worst thing that can happen is we mess everything up and <br>epically fail.</p>
-            <button class="btn about-join-us-btn" onclick="window.open('https://discord.gg/ZWZ9Jk77vt', '_blank')">join us</button>
+            <button class="btn about-join-us-btn" onclick="contact_modal(this.id)">join us</button>
         </div>
     </div>
 

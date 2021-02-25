@@ -1,10 +1,30 @@
 //Mobile - show navigation on burger click
-burger = document.querySelector(".burger")
-navMobile = document.querySelector(".nav-mobile-modal")
+let burger = document.querySelector(".burger")
+let navMobile = document.querySelector(".nav-mobile-modal")
 burger.onclick = function () {
     navMobile.classList.toggle("nav-mobile-active");
     burger.classList.toggle("open");
 }
+
+
+// Contact modal
+let contact = document.querySelector(".contact-modal")
+let contactContent = document.querySelector(".contact-modal-content")
+let closeContact = document.querySelector(".contact-modal span")
+
+function contact_modal(clicked) {
+    contact.style.display = "block";
+}
+
+closeContact.addEventListener("click", function() {
+    contact.style.display = "none";
+});
+
+contact.addEventListener("click", function(e) {
+    if(e.target != contactContent) {
+        contact.style.display = "none";
+    }
+});
 
 
 const el = document.querySelector(".projects-carousel-container")

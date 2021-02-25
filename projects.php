@@ -100,7 +100,7 @@
                 <h3>Smart Contract <br>Vulnerabilities <br>Database</h3>
                 <p>Whollet is a comprehensive crypto wallet UI kit we created by gathering the best practices (some of which we developed) for everyone to use and customize freely. You may recognize many UI elements, as many projects such as Coinbase, Argent, Celsius, and others are using similar information architecture and interaction patterns.</p>
                 <a href="https://smartcontractsave.me/" target="_blank">view more</a>
-                <a href="<?php _e(get_site_url()); ?>/contact/" class="btn projects-scvd-btn">contribute</a>
+                <a href="https://smartcontractsave.me/" class="btn projects-scvd-btn" target="_blank">contribute</a>
             </div>
         </div>
 
@@ -142,7 +142,7 @@
                 <h3>Liquid Crystal</h3>
                 <p>Liquid Crystal is a blockchain created with an idea to avoid the current bottleneck where all transactions are targeting shared ledger on the blockchain, by enabling communication on a smaller scale. Imagine different blockchains composed into a tree hierarchy working and communicating together as one. This model is enabling faster transactions together with keeping gas fees very low. Too good to be true?</p>
                 <a href="https://liquidcrystal.io/" target="_blank">view more</a>
-                <a href="<?php _e(get_site_url()); ?>/contact/" class="btn projects-liquid-crystal-btn">join the crew</a>
+                <a href="https://liquidcrystal.io/" class="btn projects-liquid-crystal-btn" target="_blank">join the crew</a>
             </div>
         </div>
 
@@ -155,8 +155,8 @@
             <div>
                 <h3>Our network</h3>
                 <p>A community-driven platform for cryptanalysis. With Our Network, analysts from any discipline can contribute concise insights to the broader community while gaining valuable feedback in the form of voting and commentary. And end-users can receive a curated and personalized crypto analytics experience.Anyone should be able to take the data sources available today and derive unique, concise insights for users, investors, and teams to learn from; effectively creating a leaderboard with the best data-driven content curated by the community members.</p>
-                <a href="#">view more</a>
-                <a href="#" class="btn projects-our-network-btn">join now</a>
+                <a href="https://ournetwork.substack.com/" target="_blank">view more</a>
+                <a href="https://ournetwork.substack.com/" class="btn projects-our-network-btn" target="_blank">join now</a>
             </div>
         </div>
 
@@ -170,7 +170,7 @@
                 <h3>Decentralized Business <br>Model Canvas</h3>
                 <p>New approach to the classic business model canvas, adapted for validation of decentralized business models.</p>
                 <a href="https://dbmc.mvpworkshop.co/" target="_blank">view more</a>
-                <a href="https://mvpworkshop.co/wp-content/uploads/2019/08/Decentralized-Business-Model-Canvas.pdf" target="_blank" class="btn projects-dbmc-btn">join the crew</a>
+                <a href="https://mvpworkshop.co/wp-content/uploads/2019/08/Decentralized-Business-Model-Canvas.pdf" target="_blank" class="btn projects-dbmc-btn">download</a>
             </div>
         </div>
 

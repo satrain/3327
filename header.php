@@ -60,3 +60,9 @@
                 </nav>
             </div>
         </header>
+        <div class="contact-modal">
+            <span>x</span>
+            <div class="contact-modal-content">
+                <p>write contact form shortcode here</p>
+            </div>
+        </div>

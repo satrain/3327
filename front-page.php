@@ -8,7 +8,7 @@
             <div class="hero-copy">
                 <h1 data-aos="zoom-in-up" data-aos-delay="500" data-aos-duration="500" class="big-heading">Crazy. Bold. Forward.</h1>
                 <h2 data-aos="zoom-in-up" data-aos-delay="700" data-aos-duration="700">We’re experimenting with Web 3.0 technologies.</h2>
-                <a data-aos="fade-in" data-aos-delay="900" data-aos-duration="900" class="btn hero-btn" id="hero-btn" href="<?php _e(get_site_url()); ?>/contact/">work with us</a>
+                <a data-aos="fade-in" data-aos-delay="1200" data-aos-duration="100" class="btn hero-btn" id="hero-btn" href="<?php _e(get_site_url()); ?>/contact/">work with us</a>
             </div>
             <div class="hero-mock">
                 <div class="circle right-circle hero-mock-bgr-circle">    
@@ -34,7 +34,7 @@
                 <br>
                 <p data-aos="fade-right" data-aos-duration="1100">Simply put, 3327 was made to encourage and foster idea generation and experimentation to achieve breakthroughs in the Web 3.0 industry.</p>
                 <br>
-                <a data-aos="fade-in" data-aos-duration="1100" class="btn what-is-btn" id="what-is-btn" href="#">read more</a>
+                <a data-aos="fade-in" data-aos-duration="1100" class="btn what-is-btn" id="what-is-btn" href="#">read more about us</a>
             </div>
         </div>
     </div>
@@ -61,7 +61,7 @@
         <div class="home-cta-content">
             <h2>Want to build something?</h2>
             <p>Collaborate with our open-minded developers on building your Web3 product.</p>
-            <a href="<?php _e(get_site_url()); ?>/contact/" class="btn" id="home-cta-btn">start the journey</a>
+            <a class="btn" id="home-cta-btn" onclick="contact_modal(this.id)">start the journey</a>
         </div>
     </div>
 
@@ -72,7 +72,7 @@
                 <h2 data-aos="fade-right" data-aos-duration="500">What we do?</h2>
                 <p data-aos="fade-right" data-aos-duration="900">Experimentation is a crucial mechanism for driving breakthroughs in any organization. If set right, having crazy/bold/futuristic ideas, experiments and hacks have potential to bring us completely new and different sets of values -     not just for the community, but for each and every member on a personal level. So if you are up for the challenge, click below.</p>
                 <br>
-                <a data-aos="fade-in" data-aos-duration="900" class="btn what-we-do-btn" id="what-we-do-btn" href="#">support us</a>
+                <a data-aos="fade-in" data-aos-duration="900" class="btn what-we-do-btn" id="what-we-do-btn" onclick="contact_modal(this.id)">support us</a>
             </div>
             <div class="what-we-do-mock">
                 <div class="bubble orange-bubble"></div>
@@ -103,7 +103,7 @@
                             <h3>Crypto Gift Cards</h3>
                             <p>A tool for the creation of gift cards topped up with cryptocurrency. Simple way to introduce someone to cryptocurrencies.</p>
                             <br>
-                            <a href="<?php _e(get_site_url()); ?>/projects/" class="btn" id="whollet-sneek-peek-btn">view project</a>
+                            <a href="https://cryptogiftcards.io/#/" class="btn" id="whollet-sneek-peek-btn" target="_blank">view project</a>
                         </div>
                     </div>
                     <!-- Whollet slide -->
@@ -117,7 +117,7 @@
                             <h3>Whollet</h3>
                             <p>Whollet is a comprehensive crypto wallet UI kit we created by gathering the best practices (some of which we developed) for everyone to use and customize freely. You may recognize many UI elements, as many projects such as Coinbase, Argent, Celsius, and others are using similar information architecture and interaction patterns.</p>
                             <br>
-                            <a href="<?php _e(get_site_url()); ?>/projects/" class="btn" id="whollet-sneek-peek-btn">view project</a>
+                            <a href="https://whollet.io/" class="btn" id="whollet-sneek-peek-btn" target="_blank">view project</a>
                         </div>
                     </div>
                     <!-- Starter kit slide -->
@@ -131,7 +131,7 @@
                             <h3>Substrate Blockchain Starter Kit</h3>
                             <p>It is a tool that brings the simplicity of creating a blockchain to another level! By drag and dropping pallets to a codebase, anyone can have a customized blockchain deployed in less than a minute.</p>
                             <br>
-                            <a href="<?php _e(get_site_url()); ?>/projects/" class="btn" id="whollet-sneek-peek-btn">view project</a>
+                            <a href="https://substrate-starterkit.mvpworkshop.co/#/" class="btn" id="whollet-sneek-peek-btn" target="_blank">view project</a>
                         </div>
                     </div>
                     <!-- Crypto gift cards slide -->
@@ -145,7 +145,7 @@
                             <h3>Crypto Gift Cards</h3>
                             <p>A tool for the creation of gift cards topped up with cryptocurrency. Simple way to introduce someone to cryptocurrencies.</p>
                             <br>
-                            <a href="<?php _e(get_site_url()); ?>/projects/" class="btn" id="whollet-sneek-peek-btn">view project</a>
+                            <a href="https://cryptogiftcards.io/#/" class="btn" id="whollet-sneek-peek-btn" target="_blank">view project</a>
                         </div>
                     </div>
                     <!-- Whollet clone slide -->
@@ -159,7 +159,7 @@
                             <h3>Whollet</h3>
                             <p>Whollet is a comprehensive crypto wallet UI kit we created by gathering the best practices (some of which we developed) for everyone to use and customize freely. You may recognize many UI elements, as many projects such as Coinbase, Argent, Celsius, and others are using similar information architecture and interaction patterns.</p>
                             <br>
-                            <a href="<?php _e(get_site_url()); ?>/projects/" class="btn" id="whollet-sneek-peek-btn">view project</a>
+                            <a href="https://whollet.io/" class="btn" id="whollet-sneek-peek-btn" target="_blank">view project</a>
                         </div>
                     </div>
                     <!-- Starter kit clone slide -->
@@ -173,7 +173,7 @@
                             <h3>Substrate Blockchain Starter Kit</h3>
                             <p>It is a tool that brings the simplicity of creating a blockchain to another level! By drag and dropping pallets to a codebase, anyone can have a customized blockchain deployed in less than a minute.</p>
                             <br>
-                            <a href="<?php _e(get_site_url()); ?>/projects/" class="btn" id="whollet-sneek-peek-btn">view project</a>
+                            <a href="https://substrate-starterkit.mvpworkshop.co/#/" class="btn" id="whollet-sneek-peek-btn" target="_blank">view project</a>
                         </div>
                     </div>
                 </div>
@@ -190,7 +190,7 @@
                             <h3>Whollet</h3>
                             <p>Whollet is a comprehensive crypto wallet UI kit we created by gathering the best practices (some of which we developed) for everyone to use and customize freely. You may recognize many UI elements, as many projects such as Coinbase, Argent, Celsius, and others are using similar information architecture and interaction patterns.</p>
                             <br>
-                            <a href="<?php _e(get_site_url()); ?>/projects/" class="btn" id="whollet-sneek-peek-btn">view project</a>
+                            <a href="https://whollet.io/" class="btn" id="whollet-sneek-peek-btn" target="_blank">view project</a>
                         </div>
                     </div>
                     <!-- Starter kit slide -->
@@ -204,7 +204,7 @@
                             <h3>Substrate Blockchain Starter Kit</h3>
                             <p>It is a tool that brings the simplicity of creating a blockchain to another level! By drag and dropping pallets to a codebase, anyone can have a customized blockchain deployed in less than a minute.</p>
                             <br>
-                            <a href="<?php _e(get_site_url()); ?>/projects/" class="btn" id="whollet-sneek-peek-btn">view project</a>
+                            <a href="https://substrate-starterkit.mvpworkshop.co/#/" class="btn" id="whollet-sneek-peek-btn" target="_blank">view project</a>
                         </div>
                     </div>
                     <!-- Crypto gift cards slide -->
@@ -218,7 +218,7 @@
                             <h3>Crypto Gift Cards</h3>
                             <p>A tool for the creation of gift cards topped up with cryptocurrency. Simple way to introduce someone to cryptocurrencies.</p>
                             <br>
-                            <a href="<?php _e(get_site_url()); ?>/projects/" class="btn" id="whollet-sneek-peek-btn">view project</a>
+                            <a href="https://cryptogiftcards.io/#/" class="btn" id="whollet-sneek-peek-btn" target="_blank">view project</a>
                         </div>
                     </div>
             </div>
