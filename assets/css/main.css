@@ -416,7 +416,7 @@ header {
 
 .not-found-container {
     position: relative;
-    padding-top: 180px;
+    padding-top: 220px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -442,6 +442,7 @@ header {
     letter-spacing: 0em;
     text-align: center;
     color: #fff;
+    z-index: 1;
 }
 
 .not-found-container p {
@@ -452,16 +453,20 @@ header {
     letter-spacing: 0em;
     text-align: left;
     color: #fff;
+    z-index: 1;
 }
 
 .not-found-container a {
     margin-top: 30px;
+    margin-bottom: 40px;
+    z-index: 1;
 }
 
 .not-found-image {
     position: absolute;
-    right: 0;
-    top: 30%;
+    z-index: 0;
+    left: 0;
+    top: 25%;
     width: 500px;
     height: 500px;
 
