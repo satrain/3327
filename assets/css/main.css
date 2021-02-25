@@ -430,6 +430,7 @@ header {
     font-size: 96px;
     line-height: 100px;
     color: #FFFFFF;
+    z-index: 1;
 }
 
 .not-found-container h2 {
@@ -475,7 +476,7 @@ header {
     background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 1024px) {
     .not-found-container {
         padding-left: 30px;
         padding-right: 30px;
@@ -485,6 +486,17 @@ header {
 
     .not-found-container h2 {
         text-align: left;
+    }
+
+    .not-found-image {
+        top: 17%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .not-found-image {
+        width: 300px;
+        height: 300px;
     }
 }
 
