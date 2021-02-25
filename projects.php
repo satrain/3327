@@ -28,8 +28,8 @@
             <div>
                 <h3>Scriptarnica</h3>
                 <p>Scriptarnica is a decentralized platform for reading, writing, publishing, selling, and buying content. The platform was developed with an aim to enable fair content sharing in the new era of the Internet by establishing close contact between an author, his audience, and all the people in-between.</p>
-                <a href="">view more</a>
-                <a href="" class="btn projects-scriptcarnica-btn">try it</a>
+                <a href="https://scriptarnica.com/" target="_blank">view more</a>
+                <a href="https://app.scriptarnica.com/home" target="_blank" class="btn projects-scriptcarnica-btn">try it</a>
             </div>
         </div>
 
@@ -42,8 +42,8 @@
             <div>
                 <h3>Bizzllet</h3>
                 <p>Bizzllet is imagined as a platform for business users that will bring new opportunities to seamlessly store, manage, integrate and distribute a company's cryptocurrency portfolio across multiple wallets with different integrations to meet the business needs. All that packed into a user-friendly interface for everyone coming from the current Web2 world to be able to easily enter the new era of payments and doing business on the blockchain.</p>
-                <a href="">view more</a>
-                <a href="" class="btn projects-bizzllet-btn">check prototype</a>
+                <a href="https://bizzllet.com/" target="_blank">view more</a>
+                <a href="https://framer.com/share/Bizzllet-Wireframes--srlM17TYOPJyWHzeu1z4/GZFSjbM11?fullscreen=1" target="_blank" class="btn projects-bizzllet-btn">check prototype</a>
             </div>
         </div>
 
@@ -56,8 +56,8 @@
             <div>
                 <h3>Substrate Blockchain <br>Starter Kit</h3>
                 <p>It is a tool that brings the simplicity of creating a blockchain to another level! By drag and dropping pallets to a codebase, anyone can have a customized blockchain deployed in less than a minute.</p>
-                <a href="">view more</a>
-                <a href="" class="btn projects-sbsk-btn">build your blockchain</a>
+                <a href=" https://substrate-starterkit.mvpworkshop.co/#/" target="_blank">view more</a>
+                <a href=" https://substrate-starterkit.mvpworkshop.co/#/" target="_blank" class="btn projects-sbsk-btn">build your blockchain</a>
             </div>
         </div>
 
@@ -70,8 +70,8 @@
             <div>
                 <h3>Stealth DEX PoC L2</h3>
                 <p>Stealth DEX is a L2 orderbook based, spot trading exchange protocol built on top of Ethereum and Loopring.DEX uses zk-proofs to validate all trades on the Ethereum mainnet, thus effectively deriving security from it. It uses a "Volition" approach, i.e. hybrid on-chain/off-chain data storage. The flexibility of the "Volition" approach still allows users to maintain the highest level of security by allowing them to store the data on the Ethereum mainnet (just like they do with "Rollups") or locally, i.e. using their own storage.</p>
-                <a href="">view more</a>
-                <a href="" class="btn projects-sdpl-btn">work with us</a>
+                <a href="#">view more</a>
+                <a href="<?php _e(get_site_url()); ?>/contact/" class="btn projects-sdpl-btn">work with us</a>
             </div>
         </div>
 
@@ -85,8 +85,8 @@
             <div>
                 <h3>Whollet</h3>
                 <p>Whollet is a comprehensive crypto wallet UI kit we created by gathering the best practices (some of which we developed) for everyone to use and customize freely. You may recognize many UI elements, as many projects such as Coinbase, Argent, Celsius, and others are using similar information architecture and interaction patterns.</p>
-                <a href="">view more</a>
-                <a href="" class="btn projects-whollet-btn">download</a>
+                <a href="https://whollet.io/" target="_blank">view more</a>
+                <a href="https://whollet.io/assets/download/Whollet-Figma-v1-BETA.zip" target="_blank" class="btn projects-whollet-btn">download</a>
             </div>
         </div>
 
@@ -99,8 +99,8 @@
             <div>
                 <h3>Smart Contract <br>Vulnerabilities <br>Database</h3>
                 <p>Whollet is a comprehensive crypto wallet UI kit we created by gathering the best practices (some of which we developed) for everyone to use and customize freely. You may recognize many UI elements, as many projects such as Coinbase, Argent, Celsius, and others are using similar information architecture and interaction patterns.</p>
-                <a href="">view more</a>
-                <a href="" class="btn projects-scvd-btn">download</a>
+                <a href="https://smartcontractsave.me/" target="_blank">view more</a>
+                <a href="<?php _e(get_site_url()); ?>/contact/" class="btn projects-scvd-btn">contribute</a>
             </div>
         </div>
 
@@ -113,8 +113,8 @@
             <div>
                 <h3>Crypto Gift Cards</h3>
                 <p>A tool for the creation of gift cards topped up with cryptocurrency. Simple way to introduce someone to cryptocurrencies.</p>
-                <a href="">view more</a>
-                <a href="" class="btn projects-cgc-btn">create a card</a>
+                <a href="https://cryptogiftcards.io/#/" target="_blank">view more</a>
+                <a href="https://cryptogiftcards.io/#/" target="_blank" class="btn projects-cgc-btn">create a card</a>
             </div>
         </div>
 
@@ -127,8 +127,8 @@
             <div>
                 <h3>Crypto Trophies</h3>
                 <p>Crypto trophies is an employee recognition tool offering unique badges (NFTs) for organization or company promotion/employee growth + scoreboard within the organization (passed trial, got promotion, anniversary, peers recognition, etc.)</p>
-                <a href="">view more</a>
-                <a href="" class="btn projects-crypto-trophies-btn">give some recognition</a>
+                <a href="https://cryptotrophies.mvpworkshop.co/#/welcome" target="_blank">view more</a>
+                <a href="https://cryptotrophies.mvpworkshop.co/#/welcome" target="_blank" class="btn projects-crypto-trophies-btn">give some recognition</a>
             </div>
         </div>
 
@@ -141,8 +141,8 @@
             <div>
                 <h3>Liquid Crystal</h3>
                 <p>Liquid Crystal is a blockchain created with an idea to avoid the current bottleneck where all transactions are targeting shared ledger on the blockchain, by enabling communication on a smaller scale. Imagine different blockchains composed into a tree hierarchy working and communicating together as one. This model is enabling faster transactions together with keeping gas fees very low. Too good to be true?</p>
-                <a href="">view more</a>
-                <a href="" class="btn projects-liquid-crystal-btn">join the crew</a>
+                <a href="https://liquidcrystal.io/" target="_blank">view more</a>
+                <a href="<?php _e(get_site_url()); ?>/contact/" class="btn projects-liquid-crystal-btn">join the crew</a>
             </div>
         </div>
 
@@ -155,8 +155,8 @@
             <div>
                 <h3>Our network</h3>
                 <p>A community-driven platform for cryptanalysis. With Our Network, analysts from any discipline can contribute concise insights to the broader community while gaining valuable feedback in the form of voting and commentary. And end-users can receive a curated and personalized crypto analytics experience.Anyone should be able to take the data sources available today and derive unique, concise insights for users, investors, and teams to learn from; effectively creating a leaderboard with the best data-driven content curated by the community members.</p>
-                <a href="">view more</a>
-                <a href="" class="btn projects-our-network-btn">join now</a>
+                <a href="#">view more</a>
+                <a href="#" class="btn projects-our-network-btn">join now</a>
             </div>
         </div>
 
@@ -169,8 +169,8 @@
             <div>
                 <h3>Decentralized Business <br>Model Canvas</h3>
                 <p>New approach to the classic business model canvas, adapted for validation of decentralized business models.</p>
-                <a href="">view more</a>
-                <a href="" class="btn projects-dbmc-btn">join the crew</a>
+                <a href="https://dbmc.mvpworkshop.co/" target="_blank">view more</a>
+                <a href="https://mvpworkshop.co/wp-content/uploads/2019/08/Decentralized-Business-Model-Canvas.pdf" target="_blank" class="btn projects-dbmc-btn">join the crew</a>
             </div>
         </div>
 
@@ -183,8 +183,8 @@
             <div>
                 <h3>Token Modelling <br>Canvas</h3>
                 <p>New take on a framework for designing balanced and sustainable tokenomics models. It's been created as an additional tool to be used with DBMC, but it can be used entirely separately.</p>
-                <a href="">view more</a>
-                <a href="" class="btn projects-tmc-btn">download</a>
+                <a href="https://mvpworkshop.co/wp-content/uploads/2019/10/MVP-Workshop-Token-Modelling-Canvas.pdf" target="_blank">view more</a>
+                <a href="https://mvpworkshop.co/wp-content/uploads/2019/10/MVP-Workshop-Token-Modelling-Canvas.pdf" target="_blank" class="btn projects-tmc-btn">download</a>
             </div>
         </div>
 
@@ -197,8 +197,8 @@
             <div>
                 <h3>Blockchainz Design</h3>
                 <p>A place for designers in the blockchain world, showcasing the best projects, articles, resources and ideas.</p>
-                <a href="">view more</a>
-                <a href="" class="btn projects-blockchainz-design-btn">explore</a>
+                <a href="https://blockchainz.design/" target="_blank">view more</a>
+                <a href="https://blockchainz.design/" target="_blank" class="btn projects-blockchainz-design-btn">explore</a>
             </div>
         </div>
 
@@ -211,8 +211,8 @@
             <div>
                 <h3>Web3.fm</h3>
                 <p>A podcast dedicated to sharing knowledge and insights about building products that work with real people in the real world - on blockchain.</p>
-                <a href="">view more</a>
-                <a href="" class="btn web3-btn">follow</a>
+                <a href="https://web3.fm/" target="_blank">view more</a>
+                <a href="https://web3.fm/" target="_blank" class="btn web3-btn">follow</a>
             </div>
         </div>
     </div>

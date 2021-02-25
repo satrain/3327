@@ -10,7 +10,7 @@
                 <h1>about us.</h1>
                 <h2>We're experimenting with Web 3.0 technologies.</h2>
                 <br>
-                <a href="#" class="btn" id="about-us-btn">work with us</a>
+                <a href="<?php _e(get_site_url()); ?>/contact/" class="btn" id="about-us-btn">work with us</a>
             </div>
             <div class="about-us-hero-mock">
                 <div class="circle right-circle about-us-hero-circle">
@@ -44,7 +44,7 @@
         <div class="about-join-us">
             <h2>Join this forward-thinking, tall and <br>handsome crew!</h2>
             <p>The worst thing that can happen is we mess everything up and <br>epically fail.</p>
-            <button class="btn about-join-us-btn">join us</button>
+            <button class="btn about-join-us-btn" onclick="window.open('https://discord.gg/ZWZ9Jk77vt', '_blank')">join us</button>
         </div>
     </div>
 

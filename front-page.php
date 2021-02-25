@@ -8,7 +8,7 @@
             <div class="hero-copy">
                 <h1 data-aos="zoom-in-up" data-aos-delay="500" data-aos-duration="500" class="big-heading">Crazy. Bold. Forward.</h1>
                 <h2 data-aos="zoom-in-up" data-aos-delay="700" data-aos-duration="700">We’re experimenting with Web 3.0 technologies.</h2>
-                <a data-aos="fade-in" data-aos-delay="900" data-aos-duration="900" class="btn hero-btn" id="hero-btn" href="#">work with us</a>
+                <a data-aos="fade-in" data-aos-delay="900" data-aos-duration="900" class="btn hero-btn" id="hero-btn" href="<?php _e(get_site_url()); ?>/contact/">work with us</a>
             </div>
             <div class="hero-mock">
                 <div class="circle right-circle hero-mock-bgr-circle">    
@@ -61,7 +61,7 @@
         <div class="home-cta-content">
             <h2>Want to build something?</h2>
             <p>Collaborate with our open-minded developers on building your Web3 product.</p>
-            <a href="#" class="btn" id="home-cta-btn">start the journey</a>
+            <a href="<?php _e(get_site_url()); ?>/contact/" class="btn" id="home-cta-btn">start the journey</a>
         </div>
     </div>
 
@@ -103,7 +103,7 @@
                             <h3>Crypto Gift Cards</h3>
                             <p>A tool for the creation of gift cards topped up with cryptocurrency. Simple way to introduce someone to cryptocurrencies.</p>
                             <br>
-                            <a href="#" class="btn" id="whollet-sneek-peek-btn">view project</a>
+                            <a href="<?php _e(get_site_url()); ?>/projects/" class="btn" id="whollet-sneek-peek-btn">view project</a>
                         </div>
                     </div>
                     <!-- Whollet slide -->
@@ -117,7 +117,7 @@
                             <h3>Whollet</h3>
                             <p>Whollet is a comprehensive crypto wallet UI kit we created by gathering the best practices (some of which we developed) for everyone to use and customize freely. You may recognize many UI elements, as many projects such as Coinbase, Argent, Celsius, and others are using similar information architecture and interaction patterns.</p>
                             <br>
-                            <a href="#" class="btn" id="whollet-sneek-peek-btn">view project</a>
+                            <a href="<?php _e(get_site_url()); ?>/projects/" class="btn" id="whollet-sneek-peek-btn">view project</a>
                         </div>
                     </div>
                     <!-- Starter kit slide -->
@@ -131,7 +131,7 @@
                             <h3>Substrate Blockchain Starter Kit</h3>
                             <p>It is a tool that brings the simplicity of creating a blockchain to another level! By drag and dropping pallets to a codebase, anyone can have a customized blockchain deployed in less than a minute.</p>
                             <br>
-                            <a href="#" class="btn" id="whollet-sneek-peek-btn">view project</a>
+                            <a href="<?php _e(get_site_url()); ?>/projects/" class="btn" id="whollet-sneek-peek-btn">view project</a>
                         </div>
                     </div>
                     <!-- Crypto gift cards slide -->
@@ -145,7 +145,7 @@
                             <h3>Crypto Gift Cards</h3>
                             <p>A tool for the creation of gift cards topped up with cryptocurrency. Simple way to introduce someone to cryptocurrencies.</p>
                             <br>
-                            <a href="#" class="btn" id="whollet-sneek-peek-btn">view project</a>
+                            <a href="<?php _e(get_site_url()); ?>/projects/" class="btn" id="whollet-sneek-peek-btn">view project</a>
                         </div>
                     </div>
                     <!-- Whollet clone slide -->
@@ -159,7 +159,7 @@
                             <h3>Whollet</h3>
                             <p>Whollet is a comprehensive crypto wallet UI kit we created by gathering the best practices (some of which we developed) for everyone to use and customize freely. You may recognize many UI elements, as many projects such as Coinbase, Argent, Celsius, and others are using similar information architecture and interaction patterns.</p>
                             <br>
-                            <a href="#" class="btn" id="whollet-sneek-peek-btn">view project</a>
+                            <a href="<?php _e(get_site_url()); ?>/projects/" class="btn" id="whollet-sneek-peek-btn">view project</a>
                         </div>
                     </div>
                     <!-- Starter kit clone slide -->
@@ -173,7 +173,7 @@
                             <h3>Substrate Blockchain Starter Kit</h3>
                             <p>It is a tool that brings the simplicity of creating a blockchain to another level! By drag and dropping pallets to a codebase, anyone can have a customized blockchain deployed in less than a minute.</p>
                             <br>
-                            <a href="#" class="btn" id="whollet-sneek-peek-btn">view project</a>
+                            <a href="<?php _e(get_site_url()); ?>/projects/" class="btn" id="whollet-sneek-peek-btn">view project</a>
                         </div>
                     </div>
                 </div>
@@ -190,7 +190,7 @@
                             <h3>Whollet</h3>
                             <p>Whollet is a comprehensive crypto wallet UI kit we created by gathering the best practices (some of which we developed) for everyone to use and customize freely. You may recognize many UI elements, as many projects such as Coinbase, Argent, Celsius, and others are using similar information architecture and interaction patterns.</p>
                             <br>
-                            <a href="#" class="btn" id="whollet-sneek-peek-btn">view project</a>
+                            <a href="<?php _e(get_site_url()); ?>/projects/" class="btn" id="whollet-sneek-peek-btn">view project</a>
                         </div>
                     </div>
                     <!-- Starter kit slide -->
@@ -204,7 +204,7 @@
                             <h3>Substrate Blockchain Starter Kit</h3>
                             <p>It is a tool that brings the simplicity of creating a blockchain to another level! By drag and dropping pallets to a codebase, anyone can have a customized blockchain deployed in less than a minute.</p>
                             <br>
-                            <a href="#" class="btn" id="whollet-sneek-peek-btn">view project</a>
+                            <a href="<?php _e(get_site_url()); ?>/projects/" class="btn" id="whollet-sneek-peek-btn">view project</a>
                         </div>
                     </div>
                     <!-- Crypto gift cards slide -->
@@ -218,7 +218,7 @@
                             <h3>Crypto Gift Cards</h3>
                             <p>A tool for the creation of gift cards topped up with cryptocurrency. Simple way to introduce someone to cryptocurrencies.</p>
                             <br>
-                            <a href="#" class="btn" id="whollet-sneek-peek-btn">view project</a>
+                            <a href="<?php _e(get_site_url()); ?>/projects/" class="btn" id="whollet-sneek-peek-btn">view project</a>
                         </div>
                     </div>
             </div>
@@ -235,7 +235,7 @@
                 <h2 data-aos="fade-right" data-aos-duration="500">Hackathons</h2>
                 <p data-aos="fade-right" data-aos-duration="900">Hack with the most hardcore bunch you hadn’t seen. Because, you know. Hackers. Join forces with some of the brightest minds in the field, brainstorm innovations, build quick solutions, eat, drink, maybe get some free stickers.</p>
                 <br>
-                <a data-aos="fade-in" data-aos-duration="900" class="btn" id="hackathons-btn" href="#">yes, i want to hack!</a>
+                <a data-aos="fade-in" data-aos-duration="900" class="btn" id="hackathons-btn" href="<?php _e(get_site_url()); ?>/contact/">yes, i want to hack!</a>
             </div>
             <div class="hackathons-mock">
                 <div class="circle right-circle hackathons-circle">
@@ -262,7 +262,7 @@
                 <div class="substrate-delivery-partners"></div>
             </div>
                 <p>In order to stay on the edge of innovation we are reinvesting a part of our own resources, and also looking for partners that can help us explore Blockchain as a technology and its business use cases.</p>
-                <a class="btn" id="meet-our-partners-btn" href="#">partner with us</a>
+                <a class="btn" id="meet-our-partners-btn" href="<?php _e(get_site_url()); ?>/contact/">partner with us</a>
             </div>
         </div>
     </div>
@@ -282,7 +282,7 @@
                 <h2 data-aos="fade-left" data-aos-duration="500">Seize the day!</h2>
                 <p data-aos="fade-left" data-aos-duration="900">Join us. The worst thing that can happen is we mess everything up and epically fail.</p>
                 <br>
-                <a data-aos="fade-in" data-aos-duration="900" class="btn" id="seize-the-day-btn" href="#">join discord</a>
+                <a data-aos="fade-in" data-aos-duration="900" class="btn" id="seize-the-day-btn" href="https://discord.gg/ZWZ9Jk77vt" target="_blank">join discord</a>
             </div>
         </div>
     </div>
