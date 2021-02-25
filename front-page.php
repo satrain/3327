@@ -87,7 +87,7 @@
 
     <!-- It ain't much, but it's honest work -->
     <div class="projects-sneek-peek">
-        <h2 data-aos="zoom-in-up" data-aos-duration="900" class="big-heading">It ain't much, but it's honest work.</h2>
+        <h2 class="big-heading">It ain't much, but it's honest work.</h2>
         <!-- Carousel slider -->
         <div class="projects-carousel">
             <div class="projects-carousel-container">
