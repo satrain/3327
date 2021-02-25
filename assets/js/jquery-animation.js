@@ -44,6 +44,10 @@ var circle = document.querySelector(".who-we-are")
                 $(this)
                 .find(".person-programming")
                 .css({ left: -rightPosition + 100 })
+
+                $(this)
+                .find(".person-with-the-flag")
+                .css({ left: -rightPosition + 150 })
             }
         }); 
     });

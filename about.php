@@ -73,12 +73,12 @@
         <div class="our-values-content">
             <div class="our-values-copy">
                 <h2>Our values</h2>
-                <p><b>Stake</b> in the game over consulting</p>
-                <p><b>Change</b> over progress</p>
-                <p><b>Utility</b> over beauty</p>
-                <p><b>Speed</b> over consistency</p>
-                <p><b>Idea</b> over realisation</p>
-                <p><b>Iteration</b> over perfection</p>
+                <h3><b>Stake</b> in the game over consulting</h3>
+                <h3><b>Change</b> over progress</h3>
+                <h3><b>Utility</b> over beauty</h3>
+                <h3><b>Speed</b> over consistency</h3>
+                <h3><b>Idea</b> over realisation</h3>
+                <h3><b>Iteration</b> over perfection</h3>
             </div>
             <div class="our-values-mock">
                 <div class="circle circle-left our-values-circle">

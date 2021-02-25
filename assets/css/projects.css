@@ -48,6 +48,46 @@
     background-repeat: no-repeat;
 }
 
+@media screen and (min-width: 2000px) {
+    .projects-hero-content {
+        justify-content: center;
+    }
+
+    .projects-hero-copy {
+        margin-right: 200px;
+    }
+}
+
+@media (min-width: 1441px) and (max-width: 1700px) {
+    .projects-hero {
+        padding-left: 200px;
+    }
+}
+
+@media (min-width: 1281px) and (max-width: 1555px) {
+    .projects-hero .projects-hero-mock .right-circle {
+        margin-right: -240px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .projects-hero {
+        padding-left: 100px;
+    }
+} 
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .projects-hero-copy h1 {
+        font-size: 62px;
+        line-height: 75px;
+    }
+
+    .projects-hero-mock {
+        margin-left: 30px;
+    }
+}
+/* END projects hero */
+
 .projects-wrapper {
     display: flex;
     flex-direction: column;
@@ -55,7 +95,8 @@
 }
 
 .projects-container {
-    margin-bottom: 500px !important;
+    margin-bottom: 300px !important;
+    margin-right: 0!important;
 }
 
 .projects-container h3 {
@@ -584,6 +625,41 @@
     background: url("../images/projects/orange-ball.png");
 }
 
+@media (min-width: 1024px) and (max-width: 1690px) {
+    .projects-container {
+        width: 90%;
+        height: auto;
+    }
+
+    .scriptarnica-image1,
+    .scriptarnica-image2,
+    .scriptarnica-image3,
+    .whollet-image1,
+    .whollet-image2,
+    .whollet-image3 {
+        width: 202.4px;
+        height: 437.6px;
+    }
+
+    .scriptarnica-image1,
+    .whollet-image1 {
+        top: -115px;
+        left: -80px;
+    }
+
+    .scriptarnica-image2,
+    .whollet-image2 {
+        top: 100px;
+    }
+
+    .scriptarnica-image3,
+    .whollet-image3 {
+        left: -80px;
+    }
+
+
+}
+
 @media screen and (max-width: 1024px) {
     .projects-hero {
         padding: 150px 30px 70px;
@@ -592,7 +668,9 @@
     .projects-hero-circle {
         margin-bottom: 0!important;
     }
+}
 
+@media screen and (max-width: 1024px) {
     .projects-wrapper {
         align-items: flex-start;
         padding-bottom: 70px;

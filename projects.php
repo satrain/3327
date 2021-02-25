@@ -8,7 +8,7 @@
         <div class="projects-hero-content">
             <div class="projects-hero-copy">
                 <h1>95% of new <br>products fail.</h1>
-                <h2>These are ours</h2>
+                <h2>These are ours:</h2>
             </div>
             <div class="projects-hero-mock">
                 <div class="circle right-circle projects-hero-circle">

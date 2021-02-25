@@ -26,7 +26,7 @@
             <a href="<?php echo get_site_url(); ?>"><div class="header-logo"></div></a>
             <nav class="header-con">
                 <ul>
-                    <li class="h-about"><a href="about">about</a></li>
+                    <li class="h-about"><a href="about" style="text-decoration: line-through;">about</a></li>
                     <li class="h-projects"><a href="projects">projects</a></li>
                     <!-- discord link  -->
                     <li class="h-community"><a href="#" target="_blank">community +</a></li>
