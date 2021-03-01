@@ -140,6 +140,7 @@
 }
 
 .slide div a:not(.btn) {
+    width: 200px;
     position: relative;
     margin-top: 30px;
     margin-bottom: 50px;
