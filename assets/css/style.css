@@ -421,6 +421,10 @@
     color: #FFFFFF;
 }
 
+#home-cta-btn:hover {
+    color: #fff;
+}
+
 @media (min-width: 1025px) and (max-width: 1376px) {
     .home-cta {
         margin-top: 0;
@@ -532,6 +536,10 @@
     background: url('../images/rocket.png');
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#what-we-do-btn:hover {
+    color: #01020D;
 }
 
 @media screen and (min-width: 2000px) {
