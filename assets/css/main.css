@@ -389,15 +389,15 @@ header {
 
 .contact-modal .close-contact-modal {
     position: absolute;
-    top: 20px;
-    right: 50px;
+    top: -30px;
+    right: -50px;
     font-size: 54px;
     color: #FFF;
     cursor: pointer;
 }
 
 .contact-modal-content {
-    width: 80%;
+    width: auto;
     height: auto;
     position: absolute;
     top: 50%;
