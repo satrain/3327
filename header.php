@@ -61,8 +61,10 @@
             </div>
         </header>
         <div class="contact-modal">
-            <span>x</span>
+            <span class="close-contact-modal">x</span>
             <div class="contact-modal-content">
-                <p>write contact form shortcode here</p>
+                <form class="contact-form">
+					<?php echo do_shortcode('[contact-form-7 id="24" title="Main Contact Form"]'); ?>
+				</form>
             </div>
         </div>

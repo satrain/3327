@@ -5,7 +5,7 @@
 <div class="not-found-container">
     
     <h1>Error 404</h1>
-    <h2>Damn, you sir are pushing things far! 
+    <h2>Damn, you are pushing things far! 
         <br>
         You found our top secret laboratory.</h2>
     <p>But guess what you didn’t find?</p>

@@ -71,7 +71,7 @@
                 <h3>Stealth DEX PoC L2</h3>
                 <p>Stealth DEX is a L2 orderbook based, spot trading exchange protocol built on top of Ethereum and Loopring.DEX uses zk-proofs to validate all trades on the Ethereum mainnet, thus effectively deriving security from it. It uses a "Volition" approach, i.e. hybrid on-chain/off-chain data storage. The flexibility of the "Volition" approach still allows users to maintain the highest level of security by allowing them to store the data on the Ethereum mainnet (just like they do with "Rollups") or locally, i.e. using their own storage.</p>
                 <a href="#">view more</a>
-                <a href="<?php _e(get_site_url()); ?>/contact/" class="btn projects-sdpl-btn">work with us</a>
+                <a onclick="contact_modal(this.id)" class="btn projects-sdpl-btn">work with us</a>
             </div>
         </div>
 

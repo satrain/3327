@@ -8,7 +8,7 @@
             <div class="hero-copy">
                 <h1 data-aos="zoom-in-up" data-aos-delay="500" data-aos-duration="500" class="big-heading">Crazy. Bold. Forward.</h1>
                 <h2 data-aos="zoom-in-up" data-aos-delay="700" data-aos-duration="700">We’re experimenting with Web 3.0 technologies.</h2>
-                <a data-aos="fade-in" data-aos-delay="1200" data-aos-duration="100" class="btn hero-btn" id="hero-btn" href="<?php _e(get_site_url()); ?>/contact/">work with us</a>
+                <a data-aos="fade-in" data-aos-delay="1200" data-aos-duration="100" class="btn hero-btn" id="hero-btn" onclick="contact_modal(this.id)">work with us</a>
             </div>
             <div class="hero-mock">
                 <div class="circle right-circle hero-mock-bgr-circle">    
@@ -34,7 +34,7 @@
                 <br>
                 <p data-aos="fade-right" data-aos-duration="1100">Simply put, 3327 was made to encourage and foster idea generation and experimentation to achieve breakthroughs in the Web 3.0 industry.</p>
                 <br>
-                <a data-aos="fade-in" data-aos-duration="1100" class="btn what-is-btn" id="what-is-btn" href="#">read more about us</a>
+                <a data-aos="fade-in" data-aos-duration="1100" class="btn what-is-btn" id="what-is-btn" href="<?php echo get_site_url(); ?>/about/">read more about us</a>
             </div>
         </div>
     </div>
@@ -235,7 +235,7 @@
                 <h2 data-aos="fade-right" data-aos-duration="500">Hackathons</h2>
                 <p data-aos="fade-right" data-aos-duration="900">Hack with the most hardcore bunch you hadn’t seen. Because, you know. Hackers. Join forces with some of the brightest minds in the field, brainstorm innovations, build quick solutions, eat, drink, maybe get some free stickers.</p>
                 <br>
-                <a data-aos="fade-in" data-aos-duration="900" class="btn" id="hackathons-btn" href="<?php _e(get_site_url()); ?>/contact/">yes, i want to hack!</a>
+                <a data-aos="fade-in" data-aos-duration="900" class="btn" id="hackathons-btn" onclick="contact_modal(this.id)">yes, i want to hack!</a>
             </div>
             <div class="hackathons-mock">
                 <div class="circle right-circle hackathons-circle">
@@ -262,7 +262,7 @@
                 <div class="substrate-delivery-partners"></div>
             </div>
                 <p>In order to stay on the edge of innovation we are reinvesting a part of our own resources, and also looking for partners that can help us explore Blockchain as a technology and its business use cases.</p>
-                <a class="btn" id="meet-our-partners-btn" href="<?php _e(get_site_url()); ?>/contact/">partner with us</a>
+                <a class="btn" id="meet-our-partners-btn" onclick="contact_modal(this.id)">partner with us</a>
             </div>
         </div>
     </div>

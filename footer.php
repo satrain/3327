@@ -5,8 +5,7 @@
                 <h2>Something is cooking in 3327's kitchen.</h1>
                 <p>Subscribe to our newsletter to receive news and important information about our experiments.</p>
                 <form action="" class="newsletter-form">
-                    <input type="email" placeholder=" enter your email">
-                    <button class="btn newsletter-btn">subscribe</button>
+                    <?php echo do_shortcode('[mc4wp_form id="25"]'); ?>
                 </form>
                 <div class="newsletter-cube"></div>
             </div>

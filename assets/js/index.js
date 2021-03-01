@@ -20,11 +20,11 @@ closeContact.addEventListener("click", function() {
     contact.style.display = "none";
 });
 
-contact.addEventListener("click", function(e) {
+/*contact.addEventListener("click", function(e) {
     if(e.target != contactContent) {
         contact.style.display = "none";
     }
-});
+});*/
 
 
 const el = document.querySelector(".projects-carousel-container")

@@ -4,17 +4,18 @@
                 <div class="left-footer-list">
                     <ul>
                         <li><h4>explore</h4></li>
-                        <li><a href="<?php _e(get_site_url()); ?>/about/">about</a></li>
-                        <li><a href="<?php _e(get_site_url()); ?>/projects/">projects</a></li>
-                        <li><a href="#">blog</a></li>
+                        <li>about</li>
+                        <li>projects</li>
+                        <li>blog</li>
+                        <li>privacy policy</li>
                     </ul>
                 </div>
                 <div class="right-footer-list">
                     <ul>
                         <li><h4>join us</h4></li>
-                        <li><a href="<?php _e(get_site_url()); ?>/contact/">get in touch</a></li>
-                        <li><a href="https://discord.gg/ZWZ9Jk77vt" target="_blank">discord community</a></li>
-                        <li><a href="<?php _e(get_site_url()); ?>/privacy-policy/">privacy-policy</a></li>
+                        <li>work with us</li>
+                        <li>submit an idea</li>
+                        <li>discord</li>
                     </ul>
                 </div>
             </div>

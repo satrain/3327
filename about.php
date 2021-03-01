@@ -10,7 +10,7 @@
                 <h1>about us.</h1>
                 <h2>We're experimenting with Web 3.0 technologies.</h2>
                 <br>
-                <a href="<?php _e(get_site_url()); ?>/contact/" class="btn" id="about-us-btn">work with us</a>
+                <a class="btn" id="about-us-btn" onclick="contact_modal(this.id)">work with us</a>
             </div>
             <div class="about-us-hero-mock">
                 <div class="circle right-circle about-us-hero-circle">
