@@ -4,10 +4,14 @@ const header = document.querySelector("header")
 let prevScrollpos = window.pageYOffset;
 window.addEventListener("scroll", function () {
     let currentScrollPos = window.pageYOffset;
-    if (prevScrollpos > currentScrollPos) {
+    if (currentScrollPos < 50) {
         document.querySelector("header").style.background = "#0439F8";
+        document.querySelector("header").style.height = "100px";
+        document.querySelector("header").style.transition = ".3s";
     } else {
         document.querySelector("header").style.background = "rgba(4, 57, 248, .9)";
+        document.querySelector("header").style.height = "85px";
+        document.querySelector("header").style.transition = ".3s";
     }
     prevScrollpos = currentScrollPos;
 })
