@@ -1,3 +1,18 @@
+// navigation on scroll effect
+const header = document.querySelector("header")
+
+let prevScrollpos = window.pageYOffset;
+window.addEventListener("scroll", function () {
+    let currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+        document.querySelector("header").style.background = "#0439F8";
+    } else {
+        document.querySelector("header").style.background = "rgba(4, 57, 248, .9)";
+    }
+    prevScrollpos = currentScrollPos;
+})
+
+
 //Mobile - show navigation on burger click
 let burger = document.querySelector(".burger")
 let navMobile = document.querySelector(".nav-mobile-modal")
