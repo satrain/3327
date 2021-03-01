@@ -32,7 +32,7 @@
                 </div>
             </div>
             <div class="footer-copyright">
-                <p>Made with ❤️ for blockchain community by humans from <br><a href="https://mvpworkshop.co/" target="_blank">MVP Workshop.</a></p>
+                <p>Made with ❤️ for blockchain community by humans from <br><a href="https://mvpworkshop.co/" target="_blank">MVP Workshop</a>.</p>
             </div>
         </footer>
         <?php wp_footer(); ?>

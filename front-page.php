@@ -8,7 +8,7 @@
             <div class="hero-copy">
                 <h1 data-aos="zoom-in-up" data-aos-delay="500" data-aos-duration="500" class="big-heading">Crazy. Bold. Forward.</h1>
                 <h2 data-aos="zoom-in-up" data-aos-delay="700" data-aos-duration="700">We’re experimenting with Web 3.0 technologies.</h2>
-                <a data-aos="fade-in" data-aos-delay="1200" data-aos-duration="100" class="btn hero-btn" id="hero-btn" onclick="contact_modal(this.id)">work with us</a>
+                <a data-aos="zoom-in-up" data-aos-delay="900" data-aos-duration="900" class="btn hero-btn" id="hero-btn" onclick="contact_modal(this.id)">work with us</a>
             </div>
             <div class="hero-mock">
                 <div class="circle right-circle hero-mock-bgr-circle">    
