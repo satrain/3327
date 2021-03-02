@@ -17,10 +17,16 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <link rel="icon" href="favicon.ico">
         <!-- AOS cdn -->
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+		<!-- Fathom - beautiful, simple website analytics -->
+<script src="https://cdn.usefathom.com/script.js" data-site="YAMRYGNH" defer></script>
+<!-- / Fathom -->
+		
         <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+		
 
         <?php wp_head(); ?>
     </head>
@@ -61,9 +67,8 @@
         </header>
         <div class="contact-modal">
             <div class="contact-modal-content">
-            <span class="close-contact-modal">x</span>
-                <form class="contact-form">
-					<?php echo do_shortcode('[contact-form-7 id="24" title="Main Contact Form"]'); ?>
-				</form>
+				<span class="close-contact-modal">x</span>
+				<h2>Get in touch!</h2>
+				<?php echo do_shortcode('[contact-form-7 id="27" title="Main Contact Form"]'); ?>
             </div>
         </div>

@@ -49,7 +49,8 @@
     align-items: flex-end;
 }
 
-.contact-form select {
+.contact-hero-content select,
+.contact-modal-content select{
     width: 610px;
     height: 70px;
 
@@ -62,10 +63,11 @@
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 500;
-    
+    border: 1px solid rgb(118, 118, 118);
 }
 
-.contact-form input {
+.contact-hero-content input,
+.contact-modal-content input{
     width: 610px;
     height: 70px;
 
@@ -78,23 +80,47 @@
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 500;
+	border: 1px solid rgb(118, 118, 118);
 }
 
-.contact-input-text {
-    height: 230px !important;
-    padding-top: 22px !important;
-    padding-bottom: 181px !important;
-    margin-bottom: 25px !important;
+.contact-hero-content textarea,
+.contact-modal-content textarea {
+	width: 610px;
+	height: 230px;
+	margin-top: 11px;
+	padding-top: 22px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 11px;
+	
+	font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+	border: 1px solid rgb(118, 118, 118);
 }
 
 .contact-btn {
-    background: #01020D; 
+    background: #01020D;
+	border: 2px solid #01020D;
     color: #FFF;
     
     width: 250px !important;
     height: 70px !important;
     margin-top: 25px;
 	padding-right: 15px;
+}
+
+.contact-btn:hover {
+	color: #01020D;
+	background: transparent;
+	transition: .5s;
+}
+
+@media (min-width: 1281px) and (max-width: 1600px) {
+	.contact-hero-content textarea,
+	.contact-modal-content textarea {
+		height: 180px!important;	
+	}
 }
 
 @media screen and (max-width: 1024px) {
@@ -117,16 +143,35 @@
         line-height: 28px;
     }
 
-    .contact-form {
-        width: 100%;
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    .contact-form select,
-    .contact-form input {
-        width: 100%;
-    }
+	.wpcf7 {
+		width: 100%!important;	
+	}
+	
+	.contact-hero-content select,
+	.contact-modal-content select {
+		height: 55px!important;
+		background: transparent!important;
+	}
+	
+	.contact-hero-content input,
+	.contact-modal-content input {
+		height: 55px!important;	
+	}
+	
+	.contact-hero-content textarea,
+	.contact-modal-content textarea {
+		height: 150px!important;
+	}
+	
+	.contact-hero-content input,
+	.contact-modal-content input,
+	.contact-hero-content select,
+	.contact-modal-content select,
+	.contact-hero-content textarea,
+	.contact-modal-content textarea{
+		width: 100%;	
+	}
+	
 
     .contact-btn {
         width: 100%!important;
